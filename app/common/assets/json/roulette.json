@@ -191,8 +191,9 @@
     "id": 29,
     "rouletteContent": true,
     "name": "Taidenäyttely kotisohvalta",
-    "content": "Valitse suosikkitaulusi Ateneumin taidemuseon kokoelmista ja kuuntele teosesittely. Voit nähdä tutussakin taulussa jotakin aivan uutta <super-navigate location=\"http://www.ateneum.fi/fi/%C3%A4%C3%A4niopas-ateneumin-kokoelmiin\"><button class=\"button button-stable button-block\")>Tästä Ateneumiin</button></super-navigate>",
-    "category": "Elämyksiä taiteesta ja kulttuurista"
+    "content": "Valitse suosikkitaulusi Ateneumin taidemuseon kokoelmista ja kuuntele teosesittely. Voit nähdä tutussakin taulussa jotakin aivan uutta  <button class=\"button button-stable button-block\">Tästä Ateneumiin</button>",
+    "category": "Elämyksiä taiteesta ja kulttuurista",
+    "externalUrl": "http://www.ateneum.fi/fi/%C3%A4%C3%A4niopas-ateneumin-kokoelmiin"
 },{
     "id": 30,
     "rouletteContent": true,

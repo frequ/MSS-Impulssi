@@ -28,9 +28,10 @@
     },{
         "id": 2,
         "name": "Naiskauneutta (vuosien takaa)",
-        "content": "Armi -Muhokselta Maailman kauneimmaksi 1953: <super-navigate location=\"http://yle.fi/aihe/artikkeli/2006/09/08/muhokselta-manilaan\"><button class=\"button button-stable button-block\">Katso YLE-areenasta</button></super-navigate>",
+        "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa"
+        "belongsTo": "Perinteet ja historian havinaa",
+        "skipModalTo": "http://yle.fi/aihe/artikkeli/2006/09/08/muhokselta-manilaan"
     },{
         "id": 3,
         "name": "Näin teet vihdan tai vastan",
@@ -83,33 +84,38 @@
     },{
         "id": 10,
         "name": "Kalastus 50-luvulla",
-        "content": "Lohenkalastusta Suomenlahdella ammattikalastajien matkassa 1957: <super-navigate location=\"http://yle.fi/aihe/artikkeli/2009/11/18/lohi-kay-pyydykseen\"><button class=\"button button-stable button-block\">Katso YLE-areenasta</button></super-navigate>",
+        "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Luonnonantimet"
+        "belongsTo": "Luonnonantimet",
+        "skipModalTo": "http://yle.fi/aihe/artikkeli/2009/11/18/lohi-kay-pyydykseen"
     },{
         "id": 11,
         "name": "Rysäkalastus",
-        "content": "Vaari vie pojanpoikansa tutustumaan rysäkalastukseen Kuhmalahdella 1986: <super-navigate location=\"http://yle.fi/aihe/artikkeli/2010/05/26/rysalla-lahnaa-ja-saalis-savustumaan\"><button class=\"button button-stable button-block\">Katso YLE-areenasta</button></super-navigate>",
+        "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Luonnonantimet"
+        "belongsTo": "Luonnonantimet",
+        "skipModalTo": "http://yle.fi/aihe/artikkeli/2010/05/26/rysalla-lahnaa-ja-saalis-savustumaan"
     },{
         "id": 12,
         "name": "Hirvenmetsästys",
-        "content": "Hirvenmetsästystä Utsjoella 2010: <super-navigate location=\"http://yle.fi/aihe/artikkeli/2012/09/27/hirvimetsalla-utsjoen-eramaassa-ja-helvetin-aarella\"><button class=\"button button-stable button-block\">Katso YLE-areenasta</button></super-navigate>",
+        "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Luonnonantimet"
+        "belongsTo": "Luonnonantimet",
+        "skipModalTo": "http://yle.fi/aihe/artikkeli/2012/09/27/hirvimetsalla-utsjoen-eramaassa-ja-helvetin-aarella"
     },{
         "id": 13,
-        "name": "Karhunkaataja muistelee.",
-        "content": "Vanha karhunkaataja muistelee. Savukoskelainen Alpi Ikäheimo oli yksi niistä viimeisistä eränkävijöistä, jotka saivat metsästyksestä elannon perheelleen. 1977: <super-navigate location=\"http://yle.fi/aihe/artikkeli/2010/04/21/vanha-karhunkaataja-muistelee\"><button class=\"button button-stable button-block\">Katso YLE-areenasta</button></super-navigate>",
+        "name": "Karhunkaataja muistelee",
+        "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Luonnonantimet"
+        "belongsTo": "Luonnonantimet",
+        "skipModalTo": "http://yle.fi/aihe/artikkeli/2010/04/21/vanha-karhunkaataja-muistelee"
     },{
         "id": 14,
         "name": "Muikku 60-luvulla",
-        "content": "Puruvedestä nousee muikkua talvella 1964: <super-navigate location=\"http://yle.fi/aihe/artikkeli/2009/06/04/puruvedesta-nousee-muikkua-talvella-1964\"><button class=\"button button-stable button-block\">Katso YLE-areenasta</button></super-navigate>",
+        "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Luonnonantimet"
+        "belongsTo": "Luonnonantimet",
+        "skipModalTo": "http://yle.fi/aihe/artikkeli/2009/06/04/puruvedesta-nousee-muikkua-talvella-1964"
     },{
         "id": 15,
         "rouletteContent": true,
@@ -134,7 +140,7 @@
         "belongsTo": "Taide ja kulttuuri"
     },{
         "id": 18,
-        "name": "Isovanhemmuus mummojen näkökulmasta (28 min) ",
+        "name": "Isovanhemmuus mummojen näkökulmasta (28 min)",
         "videoId": "64zcaydalYY",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Perinteet ja historian havinaa"

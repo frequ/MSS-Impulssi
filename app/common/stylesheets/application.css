@@ -83,3 +83,25 @@
   border: 1px solid #552bdf;
   z-index: 1;
 }
+/* iPad in portrait and up */
+@media only screen and (min-device-width: 768px) {
+  .padding {
+    display: block;
+    overflow: auto;
+  }
+  .padding .button-wrapper {
+    display: block;
+    overflow: auto;
+    float: left;
+    width: 31%;
+    margin: 0 1%;
+  }
+  .padding .button-block {
+    height: 150px;
+    font-size: 120%;
+  }
+  .padding .roulette-btn {
+    width: 97%;
+    margin: 0 1%;
+  }
+}

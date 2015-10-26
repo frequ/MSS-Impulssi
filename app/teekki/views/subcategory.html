@@ -12,17 +12,19 @@
     </div>
 
     <div ng-repeat="event in events">
-      <super-navigate ng-if="!event.skipModalTo" location="teekki#event?id={{ event.id }}">
+      <super-navigate class="button-wrapper" ng-if="!event.skipModalTo" location="teekki#event?id={{ event.id }}">
         <button class="button button-block button-stable">
           {{ event.name }}
         </button>
       </super-navigate>
 
-      <button ng-if="event.skipModalTo"
-      class="button button-stable button-block category-btn"
-      ng-click="openUrl(event.skipModalTo)">
-        {{event.name}}
-      </button>
+      <div class="button-wrapper" ng-if="event.skipModalTo">
+        <button class="button button-stable button-block category-btn"
+        ng-click="openUrl(event.skipModalTo)">
+          {{event.name}}
+        </button>
+      </div>
+
     </div>
 
   </div>

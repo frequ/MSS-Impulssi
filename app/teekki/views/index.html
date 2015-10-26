@@ -9,7 +9,7 @@
   <div ng-hide="showRoulette" class="padding">
     <h3>Valitse aiheista mieluistaa tekemistä:</h3>
 
-    <super-navigate location="teekki#category?id={{ category.id }}" ng-repeat="category in categories">
+    <super-navigate class="button-wrapper" location="teekki#category?id={{ category.id }}" ng-repeat="category in categories">
       <button class="button button-block button-stable">
         {{category.name}}
       </button>

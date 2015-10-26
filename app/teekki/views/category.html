@@ -8,8 +8,7 @@
   <div class="padding">
 
     <div ng-show="lead" class="card">
-      <div class="item item-text-wrap">
-        {{ lead }}
+      <div class="item item-text-wrap" ng-bind-html="lead">
       </div>
     </div>
 
@@ -35,7 +34,7 @@
           {{event.name}}
         </button>
       </div>
-      
+
     </div>
 
   </div>

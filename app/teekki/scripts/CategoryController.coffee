@@ -1,6 +1,6 @@
 angular
   .module('teekki')
-  .controller 'CategoryController', ($scope, supersonic, $http) ->
+  .controller 'CategoryController', ($scope, supersonic, $http, $sce) ->
     $scope.lead = null
     $scope.title = null
     $scope.hasSubcategories = false
@@ -36,7 +36,7 @@ angular
         .success (data) ->
           _saveCategory(data)
           $scope.title = data.name
-          $scope.lead = data.lead
+          $scope.lead = $sce.trustAsHtml data.lead
 
           # hack?
           data.subcategories = data.subcategories ? []

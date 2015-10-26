@@ -1,0 +1,30 @@
+<div ng-controller="SubcategoryController">
+
+  <super-navbar>
+    <super-navbar-title ng-bind="viewTitle">
+    </super-navbar-title>
+  </super-navbar>
+
+  <div class="padding">
+
+    <div ng-show="eventsLead" class="card">
+      <div class="item item-text-wrap" ng-bind-html="eventsLead"></div>
+    </div>
+
+    <div ng-repeat="event in events">
+      <super-navigate ng-if="!event.skipModalTo" location="teekki#event?id={{ event.id }}">
+        <button class="button button-block button-stable">
+          {{ event.name }}
+        </button>
+      </super-navigate>
+
+      <button ng-if="event.skipModalTo"
+      class="button button-stable button-block category-btn"
+      ng-click="openUrl(event.skipModalTo)">
+        {{event.name}}
+      </button>
+    </div>
+
+  </div>
+
+</div>

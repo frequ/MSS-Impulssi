@@ -1,0 +1,18 @@
+<div ng-controller="EventController">
+
+  <super-navbar>
+    <super-navbar-title ng-bind="viewTitle">
+    </super-navbar-title>
+  </super-navbar>
+
+  <div class="padding">
+
+    <p compile="event.content" url="{{ event.externalUrl }}"></p>
+
+      <div class="video-container">
+        <iframe ng-src="{{ ytUrl }}" frameborder="0"></iframe>
+      </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,90 @@
+{
+    "name": "Koti kuntoon",
+    "lead": "Muistisairauteen voi liittyä aiempaa enemmän vaikeutta tarttua toimeen ja saattaa asioita loppuun. Päivää kannattaakin suunnitella vaikka kalenteriin ja pyrkiä viemään loppuun kalenteriin tehdyt merkinnät. Merkintöjä ei kuitenkaan kannata tehdä liikaa yhtä päivää kohden. Isommat, aikaa vievät asiat, kannattaa jakaa useammalle päivälle. Kodin siisteys ja järjestys auttaa hallitsemaan ympäristöä. Kun tavarat ovat omilla pakoillaan, ne on kaikkien helpompi löytää.  Avaimilla, kännykällä ja muilla tärkeillä tavaroilla on hyvä olla tietty paikka. Siisti koti on myös viihtyisä. ”Älä menetä toivorikkauttas millän taval. Kyl rätei ja lumpui piissa!” - Kersantti Urho Hietanen, Tuntematon sotilas",
+    "events": [{
+            "id": 0,
+            "name": "Uunin puhdistus",
+            "category": "Koti kuntoon",
+            "videoId": "Ot2SG8fk17g"
+        },{
+            "id": 1,
+            "name": "Näppäimistö puhtaaksi",
+            "category": "Koti kuntoon",
+            "videoId": "l9Ic01FqU6Q"
+        },{
+            "id": 2,
+            "name": "Ikkunan pesu",
+            "category": "Koti kuntoon",
+            "videoId": "LDIoIrb0J1s"
+        },{
+            "id": 3,
+            "name": "Isoäidin siivousvinkit",
+            "category": "Koti kuntoon",
+            "videoId": "iV7UmRisUh0"
+        },{
+            "id": 4,
+            "name": "Keittiö kuntoon",
+            "category": "Koti kuntoon",
+            "videoId": "BwgFjWEcgFI"
+        },{
+            "id": 5,
+            "name": "Lasipinnat kirkkaiksi",
+            "category": "Koti kuntoon",
+            "videoId": "sdWxINXxVrM"
+        },{
+            "id": 6,
+            "name": "Eteisratsia",
+            "category": "Koti kuntoon",
+            "videoId": "33VLgUIa59c"
+        },{
+            "id": 7,
+            "name": "Kylpyhuone raikkaaksi",
+            "category": "Koti kuntoon",
+            "videoId": "v_vy-N9zCQU"
+        },{
+            "id": 8,
+            "name": "Puhtaat lattiat",
+            "category": "Koti kuntoon",
+            "videoId": "oip-N4Uxknc"
+        },{
+            "id": 9,
+            "name": "Katsaus siivouskomeroon",
+            "category": "Koti kuntoon",
+            "videoId": "-PlXQ9gNUn4"
+        },{
+            "id": 10,
+            "name": "Selätä kaaos",
+            "category": "Kaaos kuriin",
+            "videoId": "3jWQDUQz7rM"
+        },{
+            "id": 11,
+            "name": "Biojätepussi lehdestä",
+            "category": "Koti kuntoon",
+            "videoId": "mKSegT5Kkpg"
+        },{
+            "id": 12,
+            "name": "Joka kodin jätehuolto",
+            "category": "Koti kuntoon",
+            "videoId": "WxQ3voa17Ac"
+        },{
+            "id": 13,
+            "name": "Paidan silitys",
+            "category": "Koti kuntoon",
+            "videoId": "tBXfNQ9mSVM"
+        },{
+            "id": 14,
+            "name": "Vaatteiden käsinpesu",
+            "category": "Koti kuntoon",
+            "videoId": "KMcRngrFCZU"
+        },{
+            "id": 15,
+            "name": "Martat ekopyykillä",
+            "category": "Koti kuntoon",
+            "videoId": "pEByZu5tosc"
+        },{
+            "id": 16,
+            "name": "Kauniita unia",
+            "category": "Koti kuntoon",
+            "videoId": "nMO4mOoxNCU"
+    }]
+}

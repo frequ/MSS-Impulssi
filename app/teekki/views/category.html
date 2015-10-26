@@ -1,0 +1,42 @@
+<div ng-controller="CategoryController">
+
+  <super-navbar>
+    <super-navbar-title ng-bind="title">
+    </super-navbar-title>
+  </super-navbar>
+
+  <div class="padding">
+
+    <div ng-show="lead" class="card">
+      <div class="item item-text-wrap">
+        {{ lead }}
+      </div>
+    </div>
+
+    <div ng-show="hasSubcategories">
+      <super-navigate location="teekki#subcategory?id={{ subcategory.id }}" ng-repeat="subcategory in subcategories">
+        <button class="button button-block button-stable">
+          {{ subcategory.name }}
+        </button>
+      </super-navigate>
+    </div>
+
+    <div ng-hide="hasSubcategories" ng-repeat="event in events">
+
+      <super-navigate ng-if="!event.skipModalTo"  location="teekki#event?id={{ event.id }}">
+        <button class="button button-block button-stable">
+          {{ event.name }}
+        </button>
+      </super-navigate>
+
+      <button ng-if="event.skipModalTo"
+      class="button button-stable button-block category-btn"
+      ng-click="openUrl(event.skipModalTo)">
+        {{event.name}}
+      </button>
+      
+    </div>
+
+  </div>
+
+</div>

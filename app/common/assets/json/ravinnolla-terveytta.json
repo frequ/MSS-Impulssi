@@ -1,0 +1,334 @@
+{
+    "name": "Ravinnolla terveyttä",
+    "lead": "Ravinto vaikuttaa terveyteemme monipuolisesti. Elimistö tarvitsee riittävästi suojaravintoaineita ja sopivasti energiaa pysyäkseen terveenä ja toimintakykyisenä. Oikea ravinto tuo hyvää mieltä ja sillä voi tukea myös aivoterveyttä. Terveellinen ruokavalio on monipuolinen ja joustava eikä tee elämästä hankalaa. Hyvä ruoka maistuu, näyttää hyvältä ja huomioi myös ympäristön. Kokonaisuus ja hyvät valinnat pitkällä aikavälillä ratkaisevat.",
+    "subcategories": [{
+        "name": "Keittoja",
+        "lead": "Keitto on mainio ruoka, joka sopii moneen tilanteeseen. Se voi olla nopea arkiruoka tai vaikkapa alkuruoka juhlalounaan yhteydessä. Kasviskeitosta saa ruokaisamman ja proteiinipitoisemman, jos sen lisänä syö esimerkiksi kananmunan tai raejuustoa. Myös linssejä ja papuja kannattaa käyttää. (Lähde: Jyväkorpi, Satu 2013: Syö muistaaksesi  − ravitsemus aivoterveyden edistäjänä. SUMU.)"
+    },{
+        "name": "Kalaruokia",
+        "lead": "Kala on erinomainen proteiinin, omega-3-rasvahappojen ja D-vitamiinin lähde. Kalan syönti hoitaa samanaikaisesti aivojen, sydämen ja luuston terveyttä. (Lähde: Jyväkorpi, Satu 2013: Syö muistaaksesi − ravitsemus aivoterveyden edistäjänä. SUMU.)"
+    },{
+        "name": "Kana- ja liharuokia",
+        "lead": "Broileri- ja liharuoista on helppo valmistaa täyspainoinen ateria. Lihasta saa eteenkin proteiinia ja rautaa, joita monet ikääntyneet saavat niukasti ruokavaliostaan. Liha on myös monien B-ryhmän vitamiinien sekä sinkin ja seleenin lähde.  Lihavalmisteita ja punaista lihaa ei tulisi käyttää enempää kuin 500g (paino kypsennettynä) viikossa. Aterialla lautasesta noin neljännes täytetään lihalla tai muilla proteiinin lähteillä. Siipikarjan liha on vähärasvaisempaa ja sen rasvaa parempaa laatuaan. Naudan, lampaan ja porsaan liha on hyvä valita mahdollisimman vähärasvaisena. Hyviä proteiinin lähteitä ja vaihtoehtoja lihalle ovat kala, kannanmuna, palkokasvit, pähkinät tai siemenet. (Lähteet: http://www.ravitsemusneuvottelukunta.fi/files/attachments/fi/vrn/ravitsemussuositukset_2014_fi_web.3.pdf & Syö muistaaksesi -ravitsemus aivoterveyden edistäjänä. Satu Jyväkorpi. Suomen muistiasiantuntijat ry 2013)"
+    },{
+        "name": "Salaatteja",
+        "lead": "Salaatti voi olla kevyt vihersalaatti ruoanlisukkeena tai se voi olla ruokaisa pääateria, joka sisältää kasvisten ohella vaikka lihaa, kanaa, kalaa, papuja, juustoja, kananmunaa, pähkinöitä, riisiä pastaa tai perunaa. Salaatti on hyvä tapa lisätä kasvisten käyttöä ruokavaliossa. Värikkäistä kasviksista koostuva salaatti sisältää runsaasti vitamiineja ja antioksidantteja. Käyttämällä salaatinkastikkeena esimerkiksi rypsi- tai camelinaöljyä saat samalla omega-3-rasvahappoja ja E-vitamiinia. (Lähde: Jyväkorpi, Satu 2013: Syö muistaaksesi  − ravitsemus aivoterveyden edistäjänä. SUMU.)"
+    },{
+        "name": "Kasvisruokia",
+        "lead": "Kasvikset ovat merkittävin osa ruokalautasta. Kasvikset sisältävät energiaansa nähden runsaasti elimistön toiminnan, kasvun ja hyvinvoinnin kannalta välttämättömiä ravintoaineita (hiven- ja kivenaineita, vitamiineja, antioksidantteja ja flavonoideja). Kasviksissa ei ole lainkaan kolesterolia. Syö erivärisiä kasviksia − puoli kiloa päivässä − sekä tuoreena että kypsennettynä. Kasvisten luonnolliset yhdisteet toimivat paremmin kuin vitamiini- ja kivennäisainevalmisteet. Värikäs ruoka, joka houkuttelee syömään ja saa mielen virkistymään auttaa myös terveyden ylläpitämisessä. (Lähde: Lähde: Kotimaiset Kasvikset ry.)"
+    },{
+        "name": "Aamupaloja, välipaloja ja jälkiruokia",
+        "lead": "Säännöllinen ruokailu on tärkeää. Jotta vireystaso pysyy yllä, on hyvä syödä jotakin kolmen tunnin välein. Välipalojenkin suhteen kannattaa tehdä terveellisiä valintoja. Esimerkiksi erilaiset puurot ovat hyviä kuidun lähteitä. Niihin voi lisätä vaikkapa pellavansiemeniä, kuivattuja hedelmiä ja marjoja. Marjoilla on lukuisia terveysvaikutuksia ja lisäksi ne piristävät ruokaa antamalla väriä ja makua. Jälkiruoankaan ei aina tarvitse olla syntinen ollakseen hyvää. (Lähde: Jyväkorpi, Satu 2013: Syö muistaaksesi  − ravitsemus aivoterveyden edistäjänä. SUMU.)"
+    },{
+        "name": "Iltapaloja",
+        "lead": "Tietyt ruoka-aineet sisältävät ainesosia, jotka edistävät elimistön rauhoittumista ja unta. Suosi illalla ruoka-aineita, jotka sisältävät hitaita hiilihydraatteja ja proteiineja. Esimerkiksi: kalkkunaa, broileria, maitoa, kotijuustoa, kananmunaa, pähkinöitä, koko- ja täysjyvätuotteita, linssejä, seesamin ja auringonkukan siemeniä, manteleita, papuja, täysjyväriisiä sekä rasvattomia tai vähärasvaisia maitotuotteita. Jotkut ruoka-aineet lisäävät aivojen aktiviteettia ja valvottavat kuten pekoni, juusto, suklaa, munakoiso, kinkku, perunat, hapankaali, sokeri, makkara, pinaatti, tomaatti, sipuli, rasvaiset ja mausteiset ruuat ja jälkiruuat. Vältä siis niiden nauttimista illalla. Unta voivat häiritä myös seuraavat juomat: kofeiinipitoiset juomat kuten kahvi, alkoholipitoiset juomat kuten viini ja sokeripitoiset juomat kuten limonadi. Myös tupakointi häiritsee unta."
+    },{
+        "name": "Smoothiet",
+        "lead": "Smoothie-juomia voi nauttia aamupalaksi, välipalaksi tai iltapalaksi. Ne ovat ravintorikkaita, näppäriä valmistaa ja helppoja nauttia. Aineksia voi vaihdella oman maun ja ruokavarastojen mukaan. Ja eikun ravintorikkaita superjuomia nauttimaan! Valmistuksessa vain mielikuvitus rajana..."
+    },{
+        "name": "Tietoa ravinnosta",
+        "lead": ""
+    }],
+    "events": [{
+            "id": 0,
+            "name": "Helppo kasvissosekeitto",
+            "content": "<ul class=\"list\"><li>½ l vettä</li><li>1 pussi pakastejuureksia</li><li>1 kasvisliemikuutio</li><li>yrttejä (esim. persilja tai tilli)</li><li>raejuustoa</li></ul><ol><li>Kiehauta vesi ja laita sinne kasvisliemikuutio sekä pakastejuurekset.</li><li>Keitä pakastejuurespussissa olevan ohjeen mukaan (n. 7 minuuttia)</li><li>Soseuta sauvasekoittimella</li><li>Mausta maun mukaan yrteillä ja tarjoa raejuuston kera.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Keittoja"
+        },{
+            "id": 1,
+            "name": "Bataatti-kasviskeitto",
+            "content": "<ul class=\"list\"><div class=\"item item-divider\">Tarvitset:</div><li class=\"item\">½ l vettä</li><li class=\"item\">1 bataatti</li><li class=\"item\">2 keskikokoista perunaa</li><li class=\"item\">200g linssejä</li><li class=\"item\">2 porkkanaa</li><li class=\"item\">1 pieni kukkakaali</li><li class=\"item\">1 kasvisliemikuutio</li><li class=\"item\">1tl currya tai kurkumaa</li><li class=\"item\">1tl garam masala -maustetta</li></ul><p>Keitä vesi ja lisää kasvisliemikuutio.</p><p>Kuori ja viipaloi vihannekset</p><p>Lisää kiehuvaan veteen pilkottuja bataatteja, perunaa, porkkanaa ja linssejä. Keitä n. 10 minuuttia.</p><p>Lisää kukkakaali ja keitä kunnes kaikki vihannekset ovat pehmentyneet.</p><p>Soseuta ainekset sauvasekoittimella.</p><p>Mausta keitto currylla/kurkumalla ja garam masalalla.</p>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Keittoja"
+        },{
+            "id": 2,
+            "name": "Nopea jauhelijakeitto",
+            "content": "<ul class=\"list\"><li>½ l vettä</li><li>200 g jauhelihaa</li><li>1 lihaliemikuutio</li><li>(suolaa)</li><li>1 punasipuli</li><li>1 pakastepussi peruna-keittojuureksia</li><li>valkosipulia</li><li>persiljaa</li></ul><ol><li>Kiehauta vesi ja lisää lihaliemikuutio.</li><li>Lisää peruna-keittojuurekset kiehuvaan veteen. Keitä n. 10 minuuttia.</li><li>Kuori ja pilko sipuli.</li><li>Ruskista jauheliha paistinpannulla ja kypsytä samalla myös sipuli.</li><li>Lisää jauheliha-sipuliseos keittoon, kun kasvikset ovat melkein kypsiä.</li><li>Mausta keitto maun mukaan esim. valkosipulilla. Lisää revittyjä persiljan lehtiä keiton päälle ennen tarjoilua.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Keittoja"
+        },{
+            "id": 3,
+            "name": "Broileri-kaalikeitto",
+            "content": "<ul class=\"list\"><li>½ l vettä</li><li>kanaliemikuutio</li><li>n. 250g hapankaalia</li><li>1 punasipuli</li><li>1 valkosipulin kynsi</li><li>100g kypsää broileria</li><li>1 maustekurkku</li><li>tilliä</li></ul><ol><li>Suikaloi kaali. Kuori ja hienonna sipuli.</li><li>Keitä vesi.</li><li>Lisää kanaliemikuutio, kaali ja sipuli kiehuvaan veteen. Kypsennä vähintään puoli tuntia.</li><li>Lisää kypsät broileripalat, suikaloitu maustekurkku ja tillisilppu.</li><li>Mausta keitto tarvittaessa esim. kurkumalla ja suolalla.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Keittoja"
+        },{
+            "id": 4,
+            "name": "Kalaseljanka",
+            "content": "<ul class=\"list\"><li>n. 400 g kirjolohifileetä (voi olla myös muuta kalaa)</li><li>1 l kalalientä</li><li>1 pussi pakastejuuressuikaleita (tai pakastejuuresten sijaan esim. 1 purjoa, 3 porkkanaa, 100 g selleriä)</li>    <li>1-2 valkosipulin kynsi</li><li>1 tlk (70 g) tomaattipyreetä</li><li>1 laakerinlehti</li><li>½ tl timjamia</li><li>2 maustekurkkua</li><li>½-1 sitruunan mehu</li></ul><ol><li>Kiehauta kalaliemi.</li><li>Lisää juurekset, tomaattipyree, laakerinlehti ja timjami. Anna keiton kiehua n. 10 minuuttia.</li>    <li>Lisää paloiteltu kala ja hauduta keittoa, kunnes se on kypsää.</li><li>Mausta suikaloidulla maustekurkulla, sitruunan mehulla ja puserretulla valkosipulilla.</li><li>Hienonna päälle tilliä.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kalaruokia"
+        },{
+            "id": 5,
+            "name": "Vihanneksilla peitetty uunikala",
+            "content": "<ul class=\"list\"><li>400 g kalaa</li><li>½ tl timjamia</li><li>1 tl suolaa</li><li>½ tl pippuria</li><li>1 munakoiso</li><li>1 kesäkurpitsa</li><li>1 punainen paprika</li><li>1 rkl öljyä</li><li>2 tomaattia</li><li>1 valkosipulin kynsi</li><li>2 tl fenkolia</li></ul><ol><li>Kuumenna uuni 225 asteeseen ja laita kala uunivuokaan.</li><li>Ripottele päälle timjami, suola ja pippuri.</li><li>Paloittele kasvikset reiluiksi paloiksi.</li><li>Paista kaikkia muista paitsi tomaattia öljytyllä pannulla.</li><li>Lisää tomaatit, valkosipuli puserrettuna, hienonnettu fenkoli ja suola.</li><li>Levitä vihannesseos kalan päälle.</li><li>Paista uunissa n. 30 minuuttia.</li><li>Koristele tuoreella timjamilla.</li><li>Tarjoa keitettyjen perunoiden, täysjyväriisin tai ohran kanssa.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kalaruokia"
+        },{
+            "id": 6,
+            "name": "Lohicevice",
+            "content": "<ul class=\"list\"><li>600 g lohifleetä</li><li>1 tl suolaa</li><li>mustapippuria</li><li>2 limetin/sitruunan mehu (1 dl)</li><li>½ appelsiinin mehu (½ dl)</li><li>250 g kirsikkatomaatteja</li><li>1 avokado</li><li>1 ruukku jääsalaattia</li></ul><ol><li>Leikkaa lohi hyvin ohuiksi, nahattomiksi viipaleiksi ja levitä viipaleet laakealle vadille vierekkäin. Mausta suolalla ja pippurilla. Kaada päälle sitrusmehut.</li><li>Anna kalan maustua jääkaapissa hyvin peitettynä vähintään 3 tuntia, mielellään yön yli, kunnes liha on muuttunut läpikuultamattomaksi.</li><li>Puolita kirsikkatomaatit.</li><li>Halkaise avokado, poista kivi, kuori ja paloittele.</li><li>Revi salaatti ja levitä se vadille.</li><li>Nosta salaattipedille marinoituneet lohiviipaleet.</li><li>Ripottele päälle tomaatit, avokadot ja sipulit.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kalaruokia"
+        },{
+            "id": 7,
+            "name": "Rukiinen lohipaistos (7 annosta)",
+            "content": "<ul class=\"list\"><li>2 rkl öljyä</li><li>4 dl esikypsytettyjä rikottuja ruissuurimoita (Myllyn Paras)</li><li>500 g marinoituja lohisuikaleita</li><li>100 g purjosipulia renkaina (tai pakastesipulikuutioita)</li><li>1 kalaliemikuutio tai kalafondia</li><li>1 rkl makeaa soijakastiketta</li><li>2 paprikaa suikaleina</li><li>2 tl kuivattua tilliä tai rakuunaa tai nippu tuoretta</li><li>1 l vettä</li><li>Pinnalle: juustoraastetta</li></ul><ol><li>Voitele isohko laakea uunivuoka öljyllä.</li><li>Mittaa vuokaan kaikki ainekset raakoina ohjeen järjestyksessä ja sekoita niitä ennen veden kaatamista aineiden päälle.</li><li>Anna kypsyä 225 asteisen uunin alimmalla tasolla noin tunti.</li><li>Ota pois uunista, sekoita ruoka tasaiseksi ja ripottele pinnalle juustoraastetta. Laita hetkeksi takaisin uunin yläosaan niin, että kuorrutus saa kauniin värin.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kalaruokia"
+        },{
+            "id": 8,
+            "name": "Syyspata",
+            "content": "<ul class=\"list\"><li>400 g karjalanpaistilihaa</li><li>1 sipuli</li><li>2 porkkanaa</li><li>n. 200 g lanttua</li><li>1 palsternakka</li><li>200 g sieniä</li><li>1 tl suolaa</li><li>rosmariinia</li><li>mustapippuria</li><li>mausteita ja yrttejä maun mukaan n. 4 dl vettä</li></ul><ol><li>Kuori ja paloittele sipuli, selleri, lanttu, porkkana ja palsternakka lihakuutioiden kokoisiksi lohkoiksi.</li><li>Puhdista ja pilko sienet</li><li>Lado voideltuun isoon pataan tai uunivuokaan kerroksittain lihat, juurekset ja sienet.</li><li>Ripottele kerroksien väliin mausteita.</li><li>Kaada ruokaan vesi.</li><li>Kypsennä 175 asteessa uunin alimmalla tasolla noin 2½ tuntia.</li><li>Pane kansi päälle kypsymisen loppuvaiheessa.</li><li>Tarjoa keitettyjen perunoiden, salaatin ja leivän kanssa.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kana- ja liharuokia"
+        },{
+            "id": 9,
+            "name": "Juureslammaspata (2 annosta)",
+            "content": "<ul class=\"list\"><li>2 pientä sipulia</li><li>2 punajuurta</li><li>2 porkkanaa</li><li>1 bataatti</li><li>pieni pala lanttua</li><li>2 rkl oliiviöljyä</li><li>200 g lammaspaistia</li><li>ripaus suolaa</li><li>mustapippuria, basilikaa, timjamia, meiramia, kirveliä</li></ul><ol><li>Ruskista liha pannulla.</li><li>Kuori ja pilko kasvikset kuutioiksi.</li><li>Voitele pata öljyllä ja lisää sinne kasvikset, öljy, mausteet ja ruskistetut lampaanpaistikuutiot.</li><li>Sekoita kaikki keskenään ja laita kansi padan päälle.</li><li>Hauduta uunissa 180 asteessa n. 1½ tuntia tai kunnes juurekset ovat pehmenneet.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kana- ja liharuokia"
+        },{
+            "id": 10,
+            "name": "Lihapullat ja peruna-juuressose",
+            "content": "<ul class=\"list\"><lh>Lihapullat</lh><li>400 g jauhelihaa</li><li>1 prk tomaattimurskaa tai sosetta</li><li>1 dl korppujauhoja (vaihtoehtoisesti spelttijauhoja tai kaurahiutaleita)</li><li>1 sipuli</li><li>1 rkl öljyä</li><li>1 kananmuna</li><li>1 tl suolaa</li><li>½ tl mustapippuria muita mausteita maun mukaan</li></ul><ol><li>Sekoita jauhot (tai hiutaleet) tomaattimurskaan ja anna niiden turvota muutama minuutti.</li><li>Kuori ja hienonna sipuli ja kuullota se öljytyssä paistinpannussa.</li><li>Yhdistä kaikki ainekset ja sekoita tasaiseksi taikinaksi.</li><li>Muotoile märin käsin taikinasta noin 35 lihapullaa tai 8 pihviä ja paista ne kypsiksi uunissa 225 asteessa noin 20 minuuttia.</li></ol><br/><ul class=\"list\"><lh>Peruna-juuressose</lh><li>5−6 keskikokoista perunaa</li><li>1−2 porkkanaa</li><li>pala lanttua</li><li>2 dl kuumaa maitoa</li><li>1−2 rkl margariinia</li><li>(lisänä esim. sipulia, pinaattia tai nokkosta)</li></ul><ol><li>Pese, kuori ja paloittele kasvikset.</li> <li>Keitä ne kypsiksi (n. 10 min) vähäisessä, suolalla maustetussa vedessä.</li><li>Soseuta perunat ja lisää soseeseen kuumaa maitoa niin, että saat sopivan seoksen. Lisää halutessasi rasvaa.</li><li>Vatkaa sose kuohkeaksi.</li><li>Perunasoseeseen voi lisätä myös haudutettua sipulia tai hienonnettua pinaattia tai nokkosta.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kana- ja liharuokia"
+        },{
+            "id": 11,
+            "name": "Broileripata välimeren tapaan (6 annosta)",
+            "content": "<ul class=\"list\"><li>3 maustamatonta broilerin rintaleikettä tai koipi-reittä (800-900g)</li><li>½ tl suolaa</li><li>½ tl mustapippurirouhetta</li><li>1 rkl rypsi- tai oliiviöljyä</li><li>500 g (luumu)tomaatteja</li><li>1 munakoiso</li><li>1 kesäkurpitsa</li><li>1 punainen paprika</li><li>6 perunaa</li><li>1 dl mustia oliiveja</li><li>3 valkosipulinkynttä</li><li>3 oksaa tuoretta rosmariinia</li><li>1 tl kuivattua timjamia</li><li>3 dl vettä</li><li>1 kanaliemikuutio</li></ul><ol><lh>Liemi:</lh><li>Leikkaa broilerin rintaleikkeet kolmeen osaan tai puolita koipi-reidet. Poista halutessasi nahka. Kuivaa palat ja ripottele niiden pinnalle suola ja mustapippuri. Ruskista palat kevyesti paistinpannulla öljyssä.</li><li>Paloittele tomaatit, munakoiso, kesäkurpitsa ja paprika reilunkokoisiksi paloiksi. Kuori ja lohko perunat. Kuori valkosipulinkynnet.</li><li>Laita kaikki kasvikset leivinpaperilla vuorattuun uunivuokaan. Ripottele päälle rosmariini ja timjami ja sekoita.</li><li>Sekoita kanaliemikuutio kuumennettuun veteen ja lisää liemi vuokaan. Laita päällimmäiseksi broilerinpalat. Kypsennä uunissa 200 asteessa noin tunti.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kana- ja liharuokia"
+        },{
+            "id": 12,
+            "name": "Punajuuri-jauhelihavuoka (8 annosta)",
+            "content": "<ul class=\"list\"><li>400 g jauhelihaa</li><li>1 rkl rypsiöljyä</li><li>800 g punajuurta</li><li>2 sipulia</li><li>3 valkosipulin kynttä</li><li>2 dl rikottuja ohrasuurimoita</li><li>1 ½ tl suolaa</li><li>1 tl mustapippuria</li><li>1 rkl timjamia</li><li>1 rkl etikkaa</li><lh>Liemi:</lh><li>6 dl vettä</li><li>4 dl rasvatonta maitoa</li><li>2 dl ruokakermaa</li><li>3 kananmunaa</li></ul><ol><li>Ruskista jauheliha kevyesti rypsiöljyssä.</li><li>Kuori ja raasta punajuuret karkeaksi raasteeksi ja hienonna sipulit.</li><li>Yhdistä kaikki ainekset ja kaada uunivuokaan.</li><li>Sekoita liemen ainekset tasaiseksi seokseksi.</li><li>Kaada vuokaan ja kypsennä 200 asteisessa uunissa noin tunti.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kana- ja liharuokia"
+        },{
+            "id": 13,
+            "name": "Kanasalaatti",
+            "content": "<ul class=\"list\"><li>2 broilerinfileepihviä tai 300 g fileesuikaleita</li><li>erilaisia salaatteja (esim. lehtisalaattia, tammenlehteä, jääsalaattia, Lollo Rossoa, vuonankaalia, rucolaa, voikukan lehtiä)</li><li>8−10 kirsikkatomaattia</li><li>1 punainen paprika</li><li>½ kurkku</li><li>1 rkl rypsi- tai camelinaöljyä</li><li>1 rkl balsamikoviinietikkaa</li><li>pähkinöitä</li></ul><ol><li>Paista broilerinfileet paistinpannulla tai uunissa kypsiksi.</li><li>Pilko salaatit ja vihannekset</li><li>Lisää öljy ja balsamikoviinietikka salaattiin.</li><li>Ripottele salaatin päälle pähkinöitä.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Salaatteja"
+        },{
+            "id": 14,
+            "name": "Tonnikala-ohrasalaatti",
+            "content": "<ul class=\"list\"><li>1 prk tonnikalapaloja</li><li>1 rkl oliiviöljyä</li><li>1 punainen paprika</li><li>1 punasipuli</li><li>½ munakoiso</li><li>pala tuoretta chiliä tai chilimaustetta</li><li>mustia oliiveja</li><li>2 dl ohraa</li><li>kanalientä</li><lh>Kylmä yrttikastike:</lh><li>2 dl ruokajugurttia</li><li>½ kurkku</li><li>valkosipulin kynsi puristettuna</li><li>tuoretta minttua silputtuna</li><li>suolaa ja mustapippuria</li></ul><ol><li>keitä ohraa n. 10 min tai kunnes on kypsää.</li><li>Pilko kurkku ja sekoita yrttikastikkeen ainekset ja mausta mintulla, suolalla ja mustapippurilla.</li><li>Pilko paprika, chili, munakoiso sekä sipuli ja kuullota paistinpannulla oliiviöljyssä.</li><li>Lisää keitetty ohra ja kaada päälle kuuma kanaliemi.</li><li>Mausta suolalla ja pippurilla, anna turvota pari minuuttia.</li><li>Lisää valutetut tonnikalapalat ja oliivit.</li><li>Tarjoile lämpimänä.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Salaatteja"
+        },{
+            "id": 15,
+            "name": "Voimasalaatti",
+            "content": "<ul class=\"list\"><li>1 dl pähkinöitä</li><li>200 g valkoisia säilykepapuja (tai itse keitettyjä)</li><li>100 g kuivattuja aprikooseja</li><li>2 omenaa</li><li>½ sitruunan mehu</li><li>nippu salaattia (esim. vuonankaalia tai pinaattia)</li><li>1 kurkku</li><li>4 tomaattia</li><li>1 punasipuli</li><li>150 g ituja</li><lh>Kastike:</lh><li>200 g kermaviiliä</li><li>2 rkl sitruunanmehua</li><li>suolaa</li></ul><ol><li>Paahda pähkinöitä kuumalla ja kuivalla pannulla hetki.</li><li>Pilko vihannekset ja sekoita ainekset keskenään.</li><li>Sekoita sitruunamehu kermaviiliin ja tarjoile salaatin kanssa.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Salaatteja"
+        },{
+            "id": 16,
+            "name": "Linssisalaatti",
+            "content": "<ul class=\"list\"><li>6 dl vettä</li><li>3 dl vihreitä linssejä</li><li>2 dl valkoisia, esikeitettyjä papuja (esim. GoGreen)</li><li>300 g parsakaalia</li><li>1 punasipuli</li><li>500 g tomaattia</li><li>½ tl mustapippurirouhetta</li><lh>Marinadi:</lh><li>2 valkosipulin kynttä</li><li>2 rkl balsamicoviinietikkaa</li><li>2 rkl soijakastiketta</li><li>1 rkl rypsiöljyä</li><li>1 rkl tomaattipyreetä</li><li>1 tl paprikajauhetta</li><lh>Tarjoiluun:</lh><li>1 dl ruoanvalmistusjogurttia</li></ul><ol><li>Kiehauta vesi ja keitä linssejä noin 20 minuuttia eli kunnes ne ovat kypsiä.</li><li>Huuhtele kypsät linssit kylmällä vedellä ja valuta. Huuhtele ja valuta myös pavut.</li><li>Sekoita marinadi suurehkossa kulhossa. Lisää linssit ja pavut marinadiin ja anna maustua vähintään puoli tuntia.</li><li>Pilko parsakaalin varsi pieniksi kuutioiksi ja jaa kukinnot suurehkoiksi nupuiksi. Keitä parsakaalin paloja noin 5 minuuttia.</li><li>Kuori ja pilko sipuli. (Halutessasi voit kuullottaa sen.) Kuutioi tomaatit.</li><li>Sekoita kasvikset marinoitujen linssien ja papujen joukkoon. Mausta pippurirouheella.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kasvisruokia"
+        },{
+            "id": 17,
+            "name": "Leikkopapumunakas",
+            "content": "<ul class=\"list\"><li>1 pussi (400 g) pakastettuja tai tuoreita leikkopapuja</li><li>3 kananmunaa</li><li>1 rkl oliiviöljyä</li><li>ripaus suolaa mustapippuria</li></ul><ol><li>Keitä pakastettuja leikkopapuja kiehuvassa vedessä n. 3 min tai tuoreita n. 10 min.</li><li>Lisää kuumalle pannulle oliiviöljy ja paista pavut yhdessä kananmunien kanssa.</li><li>Lisää ripaus suolaa ja mustapippuria.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kasvisruokia"
+        },{
+            "id": 18,
+            "name": "Näkkileivät ja munakoisotahna",
+            "content": "<ul class=\"list\"><lh>Näkkileivät:</lh><li>5 dl kaurahiutaleita</li><li>2 dl auringonkukan siemeniä</li><li>½ dl seesamin siemeniä</li><li>2 rkl sokeria</li><li>2 dl kiehuvaa vettä</li></ul><ol><li>Sekoita keskenään hiutaleet, siemenet ja sokeri. Lisää kiehuva vesi. Sekoita kunnes vesi on imeytynyt hiutaleisiin.</li><li>Painele taikinasta vedellä kostutetuin käsin 20 ohutta leipää. Paista 175 asteessa noin 40 minuuttia.</li></ol><ul class=\"list\"><lh>Munakoisitahna:</lh><li>800 g munakoisoa</li><li>1 dl tahinia</li><li>1 sitruunan mehu</li><li>2 rkl oliiviöljyä</li><li>2 valkosipulin kynttä</li><li>1 tl suolaa</li><li>ripaus mustapippurirouhetta</li><li>ripaus jauhettua kuminaa</li><lh>Pinnalle:</lh><li>2 rkl oliiviöljyä</li><li>2 rkl hienonnettua persiljaa</li><li>1 tl korianterin siemeniä</li></ul><ol><li>Paahda munakoisoja uunin grillivastuksella 225 asteessa 20-30 minuuttia. Kypsymisen ohella munakoisojen kuoren on tarkoitus mustua, jotta tahna saa hieman savuisen maun.</li><li>Anna munakoisojen jäähtyä ja kaavi pehmeä sisus lusikalla kulhoon.</li><li>Lisää muut aineet ja soseuta sauvasekoittimella tasaiseksi.</li><li>Kaada tahna kulhoon ja laita pinnalle oliiviöljyä, persiljasilppua ja korianterin siemeniä.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Aamupaloja, välipaloja ja jälkiruokia"
+        },{
+            "id": 19,
+            "name": "Mantelinen spelttipuuro",
+            "content": "<ul class=\"list\"><li>1 l mantelimaitoa</li><li>4 dl spelttihiutaleita</li><li>1 tl suolaa</li><li>1 vaniljatangon siemenet ja tanko</li><li>50 g kuorellisia manteleita</li><li>halutessasi marjoja tai hilloa</li></ul><ol><li>Laita kattilaan mantelimaito ja suola.</li><li>Kaavi vaniljatangosta siemenet maidon joukkoon ja lisää myös avattu vaniljatanko.</li><li>Kuumenna kiehuvaksi ja lisää suurimot. Anna kiehua miedolla lämmöllä pakkauksen ohjeen mukaan. Sekoittele välillä.</li><li>Poista vaniljatanko ennen syömistä. Lusikoi puuroa kulhoihin ja tarjoile se manteleiden ja marjojen tai hillon kanssa.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Iltapaloja"
+        },{
+            "id": 20,
+            "name": "Kaura-luumuherkku",
+            "content": "<ul class=\"list\"><li>4 dl kaurapuuroa</li><li>2 dl luumusosetta</li><li>2 dl maustamatonta tuorejuustoa</li><li>2 tl sokeria tai hunajaa</li></ul><ol><li>Sekoita kylmän puuron joukkoon luumusose, tuorejuusto ja sokeri/hunaja.</li><li>Sekoita aineet tasaiseksi massaksi.</li><li>Annostele luumuherkku annosmaljoihin ja laita jääkaappiin hetkeksi viilenemään.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Aamupaloja, välipaloja ja jälkiruokia"
+        },{
+            "id": 21,
+            "name": "Avokado-suklaamousse",
+            "content": "<ul class=\"list\"><li>1 iso avokado</li><li>1 banaani</li><li>2 ½ rkl kaakaojauhetta</li><li>ripaus suolaa</li><li>½ tl vanilja-aromia</li><li>½ tl pikakahvijauhetta</li></ul><ol><li>Kuori avokado ja poista sisältä kivi.</li><li>Kuutioi avokado sekä banaani ja soseuta muiden ainesten kanssa sauvasekoittimella.</li><li>Tarkista maku ja lisää halutessasi makeutta hunajasta.</li><li>Anna viilentyä hetki jääkaapissa ennen tarjoilua.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Aamupaloja, välipaloja ja jälkiruokia"
+        },{
+            "id": 22,
+            "name": "Raejuustoherkku",
+            "content": "<ul class=\"list\"><li>100 g raejuustoa</li><li>200 g mansikoita</li><li>1 nektariini/omena</li><li>1 banaani</li><li>pähkinöitä</li></ul><ol><li>Pilko hedelmät ja mansikat tarjoiluastiaan.</li><li>Lisää raejuusto ja ripottele joukkoon pähkinöitä.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Iltapaloja"
+        },{
+            "id": 23,
+            "name": "Puolukkapiristys",
+            "content": "<ul class=\"list\"><li>4 dl maustamatonta jogurttia</li><li>1 dl puolukoita</li><li>2 rkl kauraleseitä tai hapankorppumuruja</li><li>2 rkl hunajaa</li><li>1 tl vaniljasokeria</li></ul><ol><li>Mittaa kaikki aineet kannuun ja soseuta sauvasekoittimella kuohkeaksi.</li><li>Anna makujen tasaantua muutama minuutti, jolloin leseet turpoavat ja juomasta tulee täyteläinen.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Aamupaloja, välipaloja ja jälkiruokia"
+        },{
+            "id": 24,
+            "name": "Marjasmoothie",
+            "content": "<ul class=\"list\"><li>2½ dl tuoreita tai pakastemarjoja</li><li>5 dl maustamatonta jogurttia</li><li>1 banaani</li><li>2−3 rkl hunajaa</li><li>1 tl vaniljasokeria</li></ul><ol><li>Pane marjat, jogurtti, viipaloitu banaani, hunaja ja vaniljasokeri tehosekoittimeen. (Voit käyttää myös sauvasekoitinta.)</li><li>Käytä konetta kunnes seos on kuohkeaa ja sileää. Tarkista makeus.</li><li>Nauti.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Smoothiet"
+        },{
+            "id": 25,
+            "name": "Lämmin hedelmäsalaatti ja suklaakastike",
+            "content": "<ul class=\"list\"><li>½ ananasta (8 viipaletta)</li><li>2 viikunaa tai 1 banaani</li><li>1 iso päärynä tai omena</li><li>150 g viinirypäleitä</li><li>pala inkivääriä</li><li>1 tl fariinisokeria (tai siirappia)</li><li>1 rkl pullomargariinia</li><lh>Suklaakastike:</lh><li>80 g tummaa suklaata</li><li>2 rkl pullomargariinia</li><li>1 rkl siirappia</li><li>1 tl kaakaojauhetta</li><li>1 tl vaniljasokeria</li><li>2 rkl vettä</li><li>1 rkl konjakkia (tai muutama tippa rommiesanssia)</li></ul><ol><li>Valmista ensin kastike: Mittaa suklaata lukuun ottamatta kaikki ainekset pieneen kattilaan ja anna kiehahtaa sekoittaen tasaiseksi.</li><li>Nosta kattila liedeltä ja sulata suklaa huolellisesti sekoittaen joukkoon. Lämmitä tarvittaessa.</li><li>Pese ja kuori tarvittaessa hedelmät ja leikkaa paksuhkoiksi viipaleiksi. Kuori ja hienonna inkivääri.</li><li>Mittaa rasva ja sokeri pannulle, paista hedelmäviipaleita kevyesti. Asettele ne kulhoihin ja viimeistele kuumalla suklaalla.</li></ol>",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Aamupaloja, välipaloja ja jälkiruokia"
+        },{
+            "id": 26,
+            "name": "Puolukkasmoothie",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Smoothiet",
+            "content": "<ul class=\"list\"><li>1 dl pakastepuolukoita</li><li>3 dl maustamatonta jogurttia tai piimää</li><li>1-2 rkl juoksevaa hunajaa</li><li>2 rkl kaura- tai ruisleseitä</li><li>ripaus kardemummaa (kardemumman sanotaan olevan muistia parantava mauste)</li><li>ripaus kanelia (sisältää mangaania; kanelin sanotaan olevan diabetesta ehkäisevä mauste)</li></ul><ol><li>Mittaa kaikki ainekset tehosekoittimeen.</li><li>Pyöräytä tasaiseksi juomaksi. Voit valmistaa juoman myös korkeareunaisessa kulhossa, sauvasekoittimella.</li><li>Kaada juoma laseihin ja nauti.</li></ol>"
+        },{
+            "id": 27,
+            "name": "Limellä terästetty kiivimalja (2 annosta)",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Smoothiet",
+            "content": "<ul class=\"list\"><li>3 kypsää kiivihedelmää</li><li>1 banaani</li><li>yhden limetin puristettu mehu</li><li>1 dl hedelmätäysmehua</li><li>3 rkl liotettuja pähkinöitä tai siemeniä</li></ul><ol><li>Kuori ja paloittele kiivihedelmät ja banaani. (Luomukiivit voi käyttää myös kuorineen, jolloin vitamiineja saa enemmän, mutta maku hiukan karvas.)</li><li>Siirrä ne tehosekoittimeen tai korkeareunaiseen kulhoon.</li><li>Lisää limetinmehu, tuoremehu ja pähkinät/siemenet.</li><li>Pyöräytä tasaiseksi tehosekoittimessa tai sauvasekoittimella.</li><li>Jos juoma on liian paksua, lisää tilkka mehua.</li></ol>"
+        },{
+            "id": 28,
+            "name": "Kurkkusmoothie (4 annosta)",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Smoothiet",
+            "content": "<ul class=\"list\"><li>1 kurkku</li><li>1 ruukullinen salaatti (mitä tummemman vihreää, sen enemmän ravintoaineita)</li><li>4 rkl limetin tai sitruunan mehua</li><li>2 dl kivennäisvettä</li></ul><ol><li>Paloittele kurkku ja huuhtele salaatinlehdet.</li><li>Lisää ainekset tehosekoittimeen.</li><li>Soseuta tasaiseksi juomaksi. Ohenna tarvittaessa kivennäisvedellä.</li><li>Nauti juoma heti.</li></ol>"
+        },{
+            "id": 29,
+            "name": "Mustaherukka-avokadosmoothie (6 annosta)",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Smoothiet",
+            "content": "<ul class=\"list\"><li>1 avokado</li><li>10 jääpalaa</li><li>3 dl omenatäysmehua</li><li>½ tl kuivattua inkivääriä (sisältää runsaasti antioksidantteja mm. kaliumia - virkistää sekä mieltä että kehoa)</li><li>2½ dl mustaherukoita</li><li>3 dl maustamatonta jogurttia</li><li>2 rkl leseitä</li><li>makeutus hunajalla maun mukaan</li></ul><ol><li>Kuori ja paloittele avokado tehosekoittimeen.</li><li>Lisää loput ainekset ja anna koneen käydä kunnes smoothie on tasaista.</li><li>Nauti heti.</li></ol>"
+        },{
+            "id": 30,
+            "name": "Mustikka-Banaanismoothie (2 annosta)",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Smoothiet",
+            "content": "<ul class=\"list\"><li>1 banaani</li><li>2 dl pakastemustikoita</li><li>2 dl maustamatonta jogurttia (myös esim. Soya-jorguttivalmiste sopii hyvin)</li><li>2 dl (veri)appelsiinitäysmehua</li></ul><ol><li>Kuori ja paloittele banaani.</li><li>Laita kaikki ainekset tehosekoittimeen ja sekoita tasaiseksi juomaksi.</li><li>Tarjoa smoothie suuresta lasista.</li></ol>"
+        },{
+            "id": 31,
+            "name": "Samettinen mangolassijuoma (4 annosta)",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Smoothiet",
+            "content": "<ul class=\"list\"><li>5 dl maustamatonta jogurttia</li><li>1 mango (myös pakastekuutiot käyvät)</li><li>½ tl kardemummaa (kardemumman sanotaan olevan muistia parantava mauste)</li><li>½ dl ruusuvettä (kaikki nesteet voi korvata myös esim. appelsiinimehulla)</li><li>noin 1–2 dl vettä tai maitoa</li><li>sahramia (sahramilla on erittäin korkea antioksidanttisuus)</li></ul><ol><li>Kuori ja pilko mango (tai käytä pakastekuutioita)</li><li>Mittaa kaikki ainekset tehosekoittimen kannuun ja anna pyöriä täydellä teholla parikymmentä sekuntia tai kunnes seos on tasaista.</li><li>Jos juomasta tulee liian paksua, lisää vettä ja pyöräytä vielä muutama kierros. Paksuus riippuu käyttämästäsi jogurtista.</li><li>Kaada laseihin, ripauta pinnalle kardemummaa ja sahramia.</li></ol><br/><b>Vinkki:</b> Ennen lassijuoman tekoa mango kannattaa laittaa kylmään, jotta rasvahapoista syntyvä öljyinen maku laimenee. Voit halutessasi myös lisätä sekaan jääpalan tai kaksi ennen tehosekoittimeen laittoa, jolloin saat sopivan viileän ja raikkaan juoman."
+        },{
+            "id": 32,
+            "name": "Suklainen avokadosmoothie (2 annosta)",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Smoothiet",
+            "content": "<ul class=\"list\"><li>2 avokadoa</li><li>2 rkl sitruunamehua</li><li>1 tlk maitorahkaa (250 g)</li><li>3dl maitoa, mantelimaitoa tai soijajuomaa</li><li>1 dl kaura-, ruis- tai tattarihiutaleita</li><li>2 rkl kauraleseitä tai leseseosta</li><li>3-6 palaa tummaa sukltaa tai raakasuklaata rouheena</li><li>n. 2 rkl hunajaa</li><li>Pinnalle:</li><li>1-2 palaa tummaa suklaata rouheena</li><li>2 rkl kauraleseitä tai leseseosta</li></ul><ol><li>Laita kaikki aineet tehosekoittimen kulhoon tai syvään mittakannuun.</li><li>Soseuta tasaiseksi tehosekoittimella tai sauvasekoittimella.</li><li>Kaada smoothie korkeisiin laseihin tai mukeihin.</li><li>Ripottele pinnalle suklaarouhetta ja leseitä.</li></ol><br/><b>Vinkki: </b> Kun olet pilkkonut avokadon kannuun, lisää heti perään sitruunamehua, jotta avokado ei tummu. Jos haluat pillillä juotavaa, käytä suhteessa enemmän maitoa tai muuta nestettä."
+        },{
+            "id": 33,
+            "name": "Vihersmoothie (1 annos)",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Smoothiet",
+            "content": "Vihersmoothie ei välttämättä ole maukkain smoothie, mutta terveellisyydessä sitä ei päihitetä. Valmistus on kätevää ja nopeaa. <ul class=\"list\"><li>1 porkkana (paloiteltu)</li><li>1 dl parsakaalia</li><li>2 kourallista pinaattia (mm. omega-3:n, tryptofaanin, ubikinonin, α-lipoiinihapon ja fenyylietyylialaniinin lähde</li><li>1 omena (paloiteltu)</li><li>2 appelsiinia (kuorittu ja paloiteltu)</li><li>appelsiinimehua</li></ul><ol><li>Laita tehosekoittimen kannuun tai syvään mittakannuun kaikki aineet.</li><li>Soseuta tasaiseksi tehosekoittimella tai sauvasekoittimella.</li><li>Kaada smoothie korkeisiin laseihin tai mukeihin. Nauti.</li></ol>"
+        },{
+            "id": 34,
+            "name": "Lehtikaali-omenasmoothie (1 annos)",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Smoothiet",
+            "content": "<ul class=\"list\"><li>2 dl lehtikaalia (vain lehtiosat)</li><li>puolikas banaani</li><li>1 dl omenamehua</li><li>pieni puristus tuoretta sitruunamehua</li><li>1 dl jäitä</li></ul><ol><li>Laita tehosekoittimen kannuun tai syvään mittakannuun kaikki aineet.</li><li>Soseuta tasaiseksi tehosekoittimella tai sauvasekoittimella.</li><li>Nauti päivän tärkeä vihannesannos!</li></ol>"
+        },{
+            "id": 35,
+            "name": "Ehdotuksia terveellisen smoothien aineksiksi",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Smoothiet",
+            "content": "Tämä ohje antaa energiaa, hyvät rasvat, vitamiinit, kivennäisaineet, antioksidantit, entsyymit, proteiinit ja emästasapainon. Ainesten määrät riippuvat jokaisen omista mieltymyksistä. Aineksia voi vaihdella sen mukaan, mitä kotona on.<ul class=\"list\"><li>Mustikoita</li><li>Mansikoita</li><li>Vesimelonia</li><li>Cantaloupe- ja hunajamelonia</li><li>Kiiviä</li><li>Papaijaa tai mangoa</li><li>Viherjauhetta</li><li>Kurpitsan-, seesamin- ja auringonkukansiemeniä</li><li>Makadamiapähkinöitä</li><li>Manteleita</li><li>Chiansiemeniä</li><li>Maca- tai ashwagdhajauhetta</li><li>Raakakaakoejauhetta</li><li>Rahkaa</li><li>Mausteeksi voi lorauttaa esim. mustaherukkajogurttia ja saskatoonmehua</li><li>Kanelia</li><li>Vettä</li></ul>(Lähde: Piippo, Sinikka 2014: Mielen ruokaa. Ravinnon vaikutus muistiin, jaksamiseen ja henkisen tasapainoon. Minerva.)"
+        },{
+            "id": 36,
+            "name": "Videoresepti: Kasvissosekeitto",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kasvisruokia",
+            "videoId": "EONis5T1K4w"
+        },{
+            "id": 37,
+            "name": "Videoresepti: Katkarapu-perunamunakas",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Aamupaloja, välipaloja ja jälkiruokia",
+            "videoId": "XnybKNMi1Fk"
+        },{
+            "id": 38,
+            "name": "Videoresepti: Puuroja",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Aamupaloja, välipaloja ja jälkiruokia",
+            "videoId": "E1vpcz1DZ7Q"
+        },{
+            "id": 39,
+            "name": "Videoresepti: Sesam silakat juurespedillä",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kalaruokia",
+            "videoId": "Zm0GPBe8No0"
+        },{
+            "id": 40,
+            "name": "Videoresepti: Lohimedaljongit",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kalaruokia",
+            "videoId": "KiUM5pr6O0U"
+        },{
+            "id": 41,
+            "name": "Videoresepti: Tofu-kasvisvokki",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Kasvisruokia",
+            "videoId": "pHF7GtE8yTU"
+        },{
+            "id": 42,
+            "name": "Tuoreilla yrteillä maustettu munakas (2 annosta)",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Iltapaloja",
+            "content": "<ul class=\"list\"><lh>Ainekset:</lh><li>4 Vapaan kanan- tai Luomu-kananmunaa</li><li>0,5 dl vettä tai maitoa</li><li>suolaa (lisää vasta lopussa jos tarvis)</li><li>mustapippuria</li><li>1-2 rkl tuoretta basilikaa hienonnettuna ja/tai oreganoa</li><li>1-2 rkl rypsi- tai oliiviöljyä</li><li>n. 50-100g kotijuustoa</li><li>kuorallinen rucolaa</li><li>ruokalusikallinen auringonkukan- ja/tai seesaminsiemeniä</li></ul> <ol><lh>Tee näin:</lh><li>Vatkaa kulhossa kananmunien rakenne rikki ja lisää joukkoon vesi tai maito, mustapippuria sekä basilika ja/ tai oregano.</li><li>Kuumenna paistinpannu ja lisää siihen öljy.</li><li>Kaada munamassa pannulle ja vedä lastalla kypsyvää seosta varovasti keskelle päin siten, että raaka seos valuu tasaisesti reunoille. Laske lieden lämpöä hieman.</li><li>Ripottele lähes hyytyneen munakkaan päälle murennettu kotijuusto, siemenet sekä rucola.</li><li>Lisää suolaa tarvittaessa (juusto sisältää suolaa ja antaa makua).</li><li>Puolita munakas ja tarjoile lehtisalaatin ja täysjyväleivän kera. Kyytipojaksi kamomillateetä tai lasi rasvatonta maitoa</li></ol><ul class=\"list\"><lh>Vinkit:</lh><li>Kokeile munakkaaseen kotijuuston tilalla vaikkapa kreikkalaista fetajuustoa.</li><li>Älä paista munakasta liian kuumalla pannulla loppuun asti. Muuten munakkaan alapinta palaa ennen kuin pinta hyytyy.</li></ul>"
+        },{
+            "id": 43,
+            "name": "Lämmin broilerisalaatti",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Iltapaloja",
+            "content": "<ul class=\"list\"><lh>Broileri:</lh><li>1 rkl rypsiöljyä</li><li>1 rkl sitruunamehua</li><li>1-2 tl currya</li><li>½ tl suolaa</li><li>170g maustamattomia broilerinfileitä</li><lh>Salaatti:</lh><li>1 kpl paprika</li><li>1 kpl kurkku</li><li>½ rkl rypsiöljyä</li><li>1 kpl jääsalaattia ruukussa tai ½ jää- ja ½ rooman- eli sidesalaattia ruukussa</li><li>1 dl oliiveja</li><lh>Koristeluun:</lh><li>sitruuna (viipaloituna)</li><ul class=\"list\"><ol><lh>Tee näin:</lh><li>Sekoita öljy, sitruunamehu ja mausteet keskenään. Kaada ne broilerinleikkeiden päälle rasiaan. Kääntele leikkeitä niin, että ne maustuvat joka puolelta. Anna marinoitua jääkaapissa 2 tuntia, ota lihat huoneenlämpöön noin 1/2 tuntia ennen kypsentämistä. Voit myös pikamarinoida lihat huoneenlämmössä 1/2 tuntia.</li><li>Paloittele kurkut ja paprikat.</li><li>Huuhtele, kuivaa ja revi salaatit vadille. Levitä päälle kurkkuviipaleet, paprikat ja oliivit.</li><li>Paista pannulla broilerit kypsiksi, jäähdytä hieman.</li><li>Leikkaa broilerinfileet vinoviipaleiksi ja nosta salaatin päälle.</li><li>Koristele lämmin kanasalaatti sitruunaviipaleilla ja tarjoa broilerisalaatti täysjyväleivän kera.</li></ol>"
+        },{
+            "id": 44,
+            "name": "Superruokavideo (27 min)",
+            "videoId": "am4Fm95iPX4",
+            "content": "Hifistelyä vai paluuta entiseen, terveelliseen ja lisäaineettomaan ruokaan? Pirren olkkarissa Maria Krohn ja Maarit Lang.",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Tietoa ravinnosta"
+        },{
+            "id": 45,
+            "name": "Ruokakolmio kannustaa monipuolisiin valintoihin",
+            "content": "<img src=\"assets/img/ruokakolmio.png\"/>(Lähde: www.syohyvaa.fi)",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Tietoa ravinnosta"
+        },{
+            "id": 46,
+            "name": "Ruokavalion kehittäminen",
+            "content": "<img src=\"assets/img/ruokavalio.png\"/>(Lähde: www.syohyvaa.fi)",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Tietoa ravinnosta"
+        },{
+            "id": 47,
+            "name": "Mihin rasvaa tarvitaan?",
+            "content": "<img src=\"assets/img/rasva.png\"/>(Lähde: www.syohyvaa.fi)",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Tietoa ravinnosta"
+        },{
+            "id": 48,
+            "name": "Ruoka-annosten proteiinipitoisuuksia",
+            "content": "<img src=\"assets/img/proteiinit1.png\"/><hr/><img src=\"assets/img/proteiinit2.png\"/>(Lähde: www.syohyvaa.fi)",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Tietoa ravinnosta"
+        },{
+            "id": 49,
+            "name": "Hyvät ympäristövalinnat",
+            "content": "<img src=\"assets/img/ymparistoympyra.jpg\"/>(Lähde: www.syohyvaa.fi)",
+            "category": "Ravinnolla terveyttä",
+            "belongsTo": "Tietoa ravinnosta"
+    }]
+}

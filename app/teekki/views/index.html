@@ -1,0 +1,24 @@
+<div ng-controller="IndexController">
+
+  <super-navbar>
+    <super-navbar-title>
+      Hyvinvointiteekki
+    </super-navbar-title>
+  </super-navbar>
+
+  <div ng-hide="showRoulette" class="padding">
+    <h3>Valitse aiheista mieluistaa tekemistä:</h3>
+
+    <super-navigate location="teekki#category?id={{ category.id }}" ng-repeat="category in categories">
+      <button class="button button-block button-stable">
+        {{category.name}}
+      </button>
+    </super-navigate>
+
+    <button class="button button-positive button-block roulette-btn" ng-click="enableRoulette()">Elämysruletti</button>
+
+  </div>
+
+  <div ng-show="showRoulette" ng-include="'_roulette.html'"></div>
+
+</div>

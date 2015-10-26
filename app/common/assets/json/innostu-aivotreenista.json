@@ -1,0 +1,17 @@
+{
+    "name": "Innostu aivotreeneistä",
+    "lead": "<p>Aivojen toiminta on keskeinen osa ihmisen hyvinvointia. Aivot tarvitsevat sopivia haasteita voidakseen hyvin ja säilyäkseen toimintakykyisinä. Kaikki itselle mielekäs, iloa tuottava, tuttu tekeminen ja harrastukset ovat aivoille hyödyllistä. Joskus kannattaa kuitenkin rikkoa rutiineja ja antaa aivoilleen uusia haasteita. Aivotreeneillä harjoittelu luo uusia hermosolujen välisiä yhteyksiä eli hermoverkkoja. Hyvin verkottuneet aivot ovat vastustuskykyisemmät muistisairauksien aiheuttamille muutoksille. ”Jos uskot, että osaat, sinä osaat. Ja jos uskot ettet osaa, olet oikeassa.” - Mary Kay Ash</p><p>Yhteisen sävelen harjoitukset haastavat elämän varrella aivojen sopukoihin (pitkäkestoiseen muistiin) kertynyttä muistiainesta kuten musiikillisia muistoja ja tiedollista muistiainesta. Sieltä löytyy muun muassa musiikki-, sananlasku- ja tietovisailua. Toiminnallisten harjoitusten avulla voi laulaa, liikkua ja rentoutua joko yksin tai yhdessä.</div><p>FORAMENCognitiveTablet -harjoitukset tarjoavat haasteita muistin lisäksi päättely-, ongelmanratkaisu- ja hahmottamiskyvylle. Sieltä löytyvät muun muassa monille tutut Jätkäshakki ja Sudoku sekä paljon muuta. Harjoitukset on kehitetty Muistiluuri-hankkeessa.</p>",
+    "events": [{
+            "id": 0,
+            "name": "Yhteinen sävel -harjoitukset",
+            "content": "",
+            "category": "Innostu aivotreeneistä",
+            "skipModalTo": "http://www.miinasillanpaa.fi/yhteinen-savel/#/games"
+        },{
+            "id": 1,
+            "name": "Muistiluuri-harjoitukset",
+            "content": "",
+            "category": "Innostu aivotreeneistä",
+            "skipModalTo": "http://www.miinasillanpaa.fi/foramen/#"
+    }]
+}

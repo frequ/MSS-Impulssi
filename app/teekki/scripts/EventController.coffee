@@ -7,7 +7,6 @@ angular
 
     _fetchEvent = (eventId) ->
       category = JSON.parse(localStorage.getItem "activeCategory")
-      console.log 'category', category, category[eventId]
       eventId = parseInt eventId
 
       if category.events

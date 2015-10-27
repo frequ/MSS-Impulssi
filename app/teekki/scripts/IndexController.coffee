@@ -2,6 +2,7 @@ angular
   .module('teekki')
   .controller 'IndexController', ($scope, supersonic, $http, $rootScope) ->
     $scope.categories = null
+    $scope.rouletteContent = null
     $rootScope.showRoulette = false
 
     _fetchCategories =  ->
@@ -26,7 +27,15 @@ angular
 
     _fetchCategories()
 
+    _fetchRoulette = ->
+      promise = $http.get '/json/roulette.json'
+        .success (data) ->
+          $scope.rouletteContent = data
+        .error ->
+          supersonic.logger.log 'error fetching roulette.json'
+
+    _fetchRoulette()
+
     $scope.enableRoulette = ->
-      $rootScope.$broadcast('fetchRoulette')
       $rootScope.showRoulette = true
       supersonic.ui.animate('slideFromRight').perform()

@@ -1,86 +1,108 @@
 angular
   .module('teekki')
-  .directive 'roulette', ($interval, $timeout) ->
+  .directive 'roulette', ($interval, $timeout, $rootScope) ->
     restrict: 'E',
-    templateUrl: '/app/teekki/roulette.html',
+    templateUrl: '_roulette.html',
     scope: {
       content: '='
     },
     link: (scope, element) ->
       scope.running = false
+      scope.items = null
+      scope.changingSpinnerPos = null
+
+      scope.$watch 'content', (newVal, oldVal) ->
+        if newVal && newVal.length > 0
+          localStorage.setItem 'activeCategory', JSON.stringify(newVal)
+          scope.content = newVal
+          _buildRoulette(scope.content)
 
       scope.back = ->
-        scope.$parent.showRoulette = false
+        $rootScope.showRoulette = false
         supersonic.ui.animate('slideFromLeft').perform()
-        reset()
+        _reset()
 
       scope.spin = ->
         scope.running = true
-        mainLoop()
+        _mainLoop()
 
-      scope.$watch 'content', (newVal, oldVal) ->
-        if newVal.length > 0
-          scope.content = newVal
-          _buildRoulette(scope, scope.content)
+      _move = (marginTop) ->
+        element = document.querySelector('.spinner-item-wrap')
+        angular.element(element).css('margin-top', marginTop + "px")
 
-      move = (marginTop) ->
-        jQuery('.spinner-item-wrap').css('margin-top', marginTop + "px")
+      intervals = []
+      _interval = (ms, func) -> intervals.push ($interval func, ms)
 
-      mainLoop = ->
+      _finalInterval = (spinnerPos, stopPos, winEvent) ->
+        if !scope.changingSpinnerPos
+          scope.changingSpinnerPos = spinnerPos
+
+        if scope.changingSpinnerPos == stopPos
+          _clearIntervals()
+
+          $timeout ( ->
+            # coffeelint: disable=max_line_length
+            winEventView = new supersonic.ui.View "teekki#event?id=" + winEvent.id
+            # coffeelint: enable=max_line_length
+            supersonic.ui.layers.push winEventView
+          ), 500
+
+          $timeout ( ->
+            _reset()
+          ), 2500
+
+        else if scope.changingSpinnerPos < stopPos
+          scope.changingSpinnerPos++
+        else if scope.changingSpinnerPos > stopPos
+          scope.changingSpinnerPos--
+
+        _move(scope.changingSpinnerPos)
+
+      _mainLoop = ->
         spinnerPos = -1
-        roundDone = 0
+        roundsDone = 0
         totalRounds = 4
-        spinnerMoveInterval = 25
+        spinnerMoveIntervalMS = 25
         stopRecursiveCalling = false
         slotHeight = 49
 
-        timeout ( ->
-          scope.looper = $timeout ->
+        recursiveTimeout = ->
+          scope.looper = $timeout ( ->
             spinnerPos -= 4
+            _move(spinnerPos)
 
             if spinnerPos <= -289
-              spinnrPos = -1
-              roundDone++
+              # reset spinner so it seems to be going around
+              spinnerPos = -1
+              roundsDone++
+              _move(spinnerPos)
 
             else if roundsDone >= totalRounds
-              spinnerMoveInterval += 1
+              # slow down spinner
+              spinnerMoveIntervalMS += 1
 
-              if spinnerMoveInterval >= 75
-                stopPosition = Math.round(spinnerPos / slotHeight * slotHeight)+3
+              if spinnerMoveIntervalMS >= 75
+                stopPos = Math.round(spinnerPos / slotHeight * slotHeight)+8
                 winnerEvent = scope.items[5]
-                $timeout.cancel(scope.looper)
+                $timeout.cancel scope.looper
                 stopRecursiveCalling = true
-
-                scope.finalInterval = $interval ( ->
-                  if spinnerPos is stopPosition
-                    $interval.cancel(scope.finalInterval)
-
-                    $timeout ( ->
-                      # todo show event
-                    ), 500
-                    $timeout ( ->
-                      reset()
-                    ), 1500
-
-                  else if spinnerPos < stopPosition
-                    spinnerPos++
-                  else if spinnerPos > stopPosition
-                    spinnerPos--
-
-                  move(spinnerPos)
-
-                ), spinnerMoveInterval
+                # coffeelint: disable=max_line_length
+                _interval spinnerMoveIntervalMS, -> _finalInterval spinnerPos, stopPos, winnerEvent
+                # coffeelint: enable=max_line_length
 
             if !stopRecursiveCalling
-              timeout()
+              recursiveTimeout()
 
-          ), spinnerMoveInterval
+          ), spinnerMoveIntervalMS
 
-        timeout()
+        recursiveTimeout()
+
+      _clearIntervals = ->
+        $interval.cancel interval for interval in intervals
+        intervals = []
 
       _shuffle = (array) ->
         currentIndex = array.length
-
         while currentIndex isnt 0
           randomIndex = Math.floor(Math.random() * currentIndex)
           currentIndex -= 1
@@ -90,16 +112,16 @@ angular
 
         array
 
-      _buildRoulette = (scope, content) ->
+      _buildRoulette = (content) ->
         scope.items = []
         items = _shuffle(content)
-        repeat = items.lice(0,3)
+        repeat = items.slice(0,3)
         items = items.splice(0,6)
         scope.items = items.concat(repeat)
-        move(-1)
+        _move(-1)
 
-      reset = ->
+      _reset = ->
         scope.running = false
-        _buildRoulette(scope, scope.content)
+        _buildRoulette(scope.content)
         $timeout.cancel(scope.looper)
         $interval.cancel(scope.finalInterval)

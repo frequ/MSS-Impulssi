@@ -122,6 +122,7 @@ angular
 
       _reset = ->
         scope.running = false
+        scope.changingSpinnerPos = null
         _buildRoulette(scope.content)
         $timeout.cancel(scope.looper)
         $interval.cancel(scope.finalInterval)

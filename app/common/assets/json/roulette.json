@@ -204,7 +204,8 @@
     "id": 31,
     "rouletteContent": true,
     "name": "Lähetä kortti",
-    "content": "Lähetä kortti jollekin ystävällesi, sukulaiselle, vanhalle tutulle tai henkilölle, joka ensimmäisenä tulee mieleesi. Kortin sähköpostiosoitteeseen voit maksutta lähettää myös näiden linkkien kautta: <super-navigate location=\"http://www.eloisaika.fi/eloisa-ika/eloisat-hahmot/laheta-e-kortti/\"><button class=\"button button-stable button-block\")>Tästä</button></super-navigate><super-navigate location=\"http://papunet.net/_pelit/postikortti/\"><button class=\"button button-stable button-block\">Tai täältä</button></super-navigate>"
+    "content": "Lähetä kortti jollekin ystävällesi, sukulaiselle, vanhalle tutulle tai henkilölle, joka ensimmäisenä tulee mieleesi. Kortin sähköpostiosoitteeseen voit maksutta lähettää myös näiden linkkien kautta: <button class=\"button button-stable button-block\")>Tästä</button>",
+    "externalUrl": "http://www.eloisaika.fi/eloisa-ika/eloisat-hahmot/laheta-e-kortti"
 },{
     "id": 32,
     "rouletteContent": true,

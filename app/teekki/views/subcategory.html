@@ -1,4 +1,4 @@
-<div ng-controller="SubcategoryController">
+<div ng-controller="SubcategoryController" ng-cloak>
 
   <super-navbar>
     <super-navbar-title ng-bind="viewTitle">
@@ -21,7 +21,7 @@
       <div class="button-wrapper" ng-if="event.skipModalTo">
         <button class="button button-stable button-block category-btn"
         ng-click="openUrl(event.skipModalTo)">
-          {{event.name}}
+          {{ event.name }}
         </button>
       </div>
 

@@ -9,7 +9,7 @@
 
     <p compile="event.content" url="{{ event.externalUrl }}"></p>
 
-      <div class="video-container">
+      <div ng-if="ytUrl" class="video-container">
         <iframe ng-src="{{ ytUrl }}" frameborder="0"></iframe>
       </div>
 

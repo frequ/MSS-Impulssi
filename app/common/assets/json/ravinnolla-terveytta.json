@@ -303,31 +303,31 @@
         },{
             "id": 45,
             "name": "Ruokakolmio kannustaa monipuolisiin valintoihin",
-            "content": "<img src=\"assets/img/ruokakolmio.png\"/>(Lähde: www.syohyvaa.fi)",
+            "content": "<img src=\"/img/ruokakolmio.png\"/>(Lähde: www.syohyvaa.fi)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Tietoa ravinnosta"
         },{
             "id": 46,
             "name": "Ruokavalion kehittäminen",
-            "content": "<img src=\"assets/img/ruokavalio.png\"/>(Lähde: www.syohyvaa.fi)",
+            "content": "<img src=\"/img/ruokavalio.png\"/>(Lähde: www.syohyvaa.fi)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Tietoa ravinnosta"
         },{
             "id": 47,
             "name": "Mihin rasvaa tarvitaan?",
-            "content": "<img src=\"assets/img/rasva.png\"/>(Lähde: www.syohyvaa.fi)",
+            "content": "<img src=\"/img/rasva.png\"/>(Lähde: www.syohyvaa.fi)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Tietoa ravinnosta"
         },{
             "id": 48,
             "name": "Ruoka-annosten proteiinipitoisuuksia",
-            "content": "<img src=\"assets/img/proteiinit1.png\"/><hr/><img src=\"assets/img/proteiinit2.png\"/>(Lähde: www.syohyvaa.fi)",
+            "content": "<img src=\"/img/proteiinit1.png\"/><hr/><img src=\"/img/proteiinit2.png\"/>(Lähde: www.syohyvaa.fi)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Tietoa ravinnosta"
         },{
             "id": 49,
             "name": "Hyvät ympäristövalinnat",
-            "content": "<img src=\"assets/img/ymparistoympyra.jpg\"/>(Lähde: www.syohyvaa.fi)",
+            "content": "<img src=\"/img/ymparistoympyra.jpg\"/>(Lähde: www.syohyvaa.fi)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Tietoa ravinnosta"
     }]

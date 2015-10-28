@@ -22,8 +22,6 @@ angular
         $scope.ytUrl = $sce.trustAsResourceUrl protocol + "//www.youtube.com/embed/" + $scope.event.videoId + "?rel=0"
         # coffeelint: enable=max_line_length
 
-      supersonic.logger.log $scope.event
-
     supersonic.ui.views.current.params.onValue (params) ->
       event_id = params.id
       _fetchEvent(event_id)

@@ -39,3 +39,7 @@ angular
     $scope.enableRoulette = ->
       $rootScope.showRoulette = true
       supersonic.ui.animate('slideFromRight').perform()
+
+      # coffeelint: disable=max_line_length
+      localStorage.setItem 'activeCategory', JSON.stringify($scope.rouletteContent)
+      # coffeelint: enable=max_line_length

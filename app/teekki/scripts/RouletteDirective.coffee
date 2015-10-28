@@ -13,7 +13,6 @@ angular
 
       scope.$watch 'content', (newVal, oldVal) ->
         if newVal && newVal.length > 0
-          localStorage.setItem 'activeCategory', JSON.stringify(newVal)
           scope.content = newVal
           _buildRoulette(scope.content)
 
@@ -48,6 +47,7 @@ angular
           ), 500
 
           $timeout ( ->
+            _buildRoulette(scope.content)
             _reset()
           ), 2500
 
@@ -82,7 +82,7 @@ angular
               spinnerMoveIntervalMS += 1
 
               if spinnerMoveIntervalMS >= 75
-                stopPos = Math.round(spinnerPos / slotHeight * slotHeight)+8
+                stopPos = Math.round(spinnerPos / slotHeight * slotHeight)+4
                 winnerEvent = scope.items[5]
                 $timeout.cancel scope.looper
                 stopRecursiveCalling = true
@@ -113,8 +113,10 @@ angular
         array
 
       _buildRoulette = (content) ->
+        # lets not shuffle the actual content thats bound to scope
+        contentCopy = angular.copy content
         scope.items = []
-        items = _shuffle(content)
+        items = _shuffle(contentCopy)
         repeat = items.slice(0,3)
         items = items.splice(0,6)
         scope.items = items.concat(repeat)
@@ -123,6 +125,5 @@ angular
       _reset = ->
         scope.running = false
         scope.changingSpinnerPos = null
-        _buildRoulette(scope.content)
         $timeout.cancel(scope.looper)
         $interval.cancel(scope.finalInterval)

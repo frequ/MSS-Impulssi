@@ -1,38 +1,34 @@
 angular
   .module('teekki')
-  .controller 'IndexController', ($scope, supersonic, $http, $rootScope) ->
+  .controller 'IndexController', ($scope, supersonic, $rootScope, httpService) ->
+
     $scope.categories = null
     $scope.rouletteContent = null
     $rootScope.showRoulette = false
 
     _fetchCategories =  ->
-      promise = $http.get '/json/categories.json'
-        .success (data) ->
+      httpService.getCategories().then (data) ->
+        data = data.data
+        categories = []
 
-          categories = []
+        for item in data
+          categoryObj = {}
+          categoryObj.name = item
+          categoryObj.id = item.replace(/ä/g, "a")
+            .replace(/ö/g, "o")
+            .split(' ')
+            .join('-').toLowerCase()
 
-          for item in data
-            categoryObj = {}
-            categoryObj.name = item
-            categoryObj.id = item.replace(/ä/g, "a")
-              .replace(/ö/g, "o")
-              .split(' ')
-              .join('-').toLowerCase()
+          categories.push categoryObj
 
-            categories.push categoryObj
-
-          $scope.categories = categories
-        .error ->
-          supersonic.logger.log 'error fetching categories.json'
+        $scope.categories = categories
 
     _fetchCategories()
 
     _fetchRoulette = ->
-      promise = $http.get '/json/roulette.json'
-        .success (data) ->
-          $scope.rouletteContent = data
-        .error ->
-          supersonic.logger.log 'error fetching roulette.json'
+      httpService.getRoulette().then (data) ->
+        data = data.data
+        $scope.rouletteContent = data
 
     _fetchRoulette()
 

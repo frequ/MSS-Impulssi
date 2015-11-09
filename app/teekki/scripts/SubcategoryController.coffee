@@ -1,6 +1,7 @@
 angular
   .module('teekki')
   .controller 'SubcategoryController', ($scope, supersonic, $sce) ->
+
     $scope.events = null
 
     _idfySubcategoryName = (subcategory) ->

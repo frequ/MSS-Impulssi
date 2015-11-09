@@ -1,6 +1,7 @@
 angular
   .module('teekki')
   .controller 'EventController', ($scope, supersonic, $sce) ->
+
     $scope.event = null
     $scope.viewTitle = null
     $scope.ytUrl = null

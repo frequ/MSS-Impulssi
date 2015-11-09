@@ -1,15 +1,13 @@
 angular
   .module('teekki')
-  .controller 'CategoryController', ($scope, supersonic, $http, $sce) ->
+  .controller 'CategoryController', ($scope, supersonic, $sce, httpService) ->
+
     $scope.lead = null
     $scope.title = null
     $scope.hasSubcategories = false
     $scope.categoryId = null
     $scope.events = null
     $scope.subcategories = null
-
-    _saveCategory = (category) ->
-      localStorage.setItem 'activeCategory', JSON.stringify(category)
 
     _buildSubcategories = (subcategories) ->
       $scope.hasSubcategories = true
@@ -28,26 +26,17 @@ angular
 
       $scope.subcategories = subcategoryObjsArray
 
-    _buildEvents = (events) ->
-      $scope.events = events
-
     _fetchCategory = (categoryId) ->
-      promise = $http.get '/json/' + categoryId + '.json'
-        .success (data) ->
-          _saveCategory(data)
-          $scope.title = data.name
-          $scope.lead = $sce.trustAsHtml data.lead
+      httpService.getCategory(categoryId).then (data) ->
+        data = data.data
+        $scope.title = data.name
+        $scope.lead = $sce.trustAsHtml data.lead
 
-          # hack?
-          data.subcategories = data.subcategories ? []
-
-          if data.subcategories.length > 0
-            _buildSubcategories(data.subcategories)
-          else
-            _buildEvents(data.events)
-
-        .error ->
-          supersonic.logger.log 'error fetching ' + categoryId + '.json'
+        data.subcategories = data.subcategories ? []
+        if data.subcategories.length > 0
+          _buildSubcategories(data.subcategories)
+        else
+          $scope.events = data.events
 
     supersonic.ui.views.current.params.onValue (params) ->
       category_id = params.id

@@ -38,7 +38,7 @@
         },{
             "id": 1,
             "name": "Bataatti-kasviskeitto",
-            "content": "<ul class=\"list\"><div class=\"item item-divider\">Tarvitset:</div><li class=\"item\">½ l vettä</li><li class=\"item\">1 bataatti</li><li class=\"item\">2 keskikokoista perunaa</li><li class=\"item\">200g linssejä</li><li class=\"item\">2 porkkanaa</li><li class=\"item\">1 pieni kukkakaali</li><li class=\"item\">1 kasvisliemikuutio</li><li class=\"item\">1tl currya tai kurkumaa</li><li class=\"item\">1tl garam masala -maustetta</li></ul><p>Keitä vesi ja lisää kasvisliemikuutio.</p><p>Kuori ja viipaloi vihannekset</p><p>Lisää kiehuvaan veteen pilkottuja bataatteja, perunaa, porkkanaa ja linssejä. Keitä n. 10 minuuttia.</p><p>Lisää kukkakaali ja keitä kunnes kaikki vihannekset ovat pehmentyneet.</p><p>Soseuta ainekset sauvasekoittimella.</p><p>Mausta keitto currylla/kurkumalla ja garam masalalla.</p>",
+            "content": "<ul class=\"list\"><li>½ l vettä</li><li>1 bataatti</li><li>2 keskikokoista perunaa</li><li>200g linssejä</li><li>2 porkkanaa</li><li>1 pieni kukkakaali</li><li>1 kasvisliemikuutio</li><li>1tl currya tai kurkumaa</li><li>1tl garam masala -maustetta</li></ul><ol><li>Keitä vesi ja lisää kasvisliemikuutio.</li><li>Kuori ja viipaloi vihannekset</li><li>Lisää kiehuvaan veteen pilkottuja bataatteja, perunaa, porkkanaa ja linssejä. Keitä n. 10 minuuttia.</li><li>Lisää kukkakaali ja keitä kunnes kaikki vihannekset ovat pehmentyneet.</li><li>Soseuta ainekset sauvasekoittimella.</li><li>Mausta keitto currylla/kurkumalla ja garam masalalla.</li></ol>",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Keittoja"
         },{

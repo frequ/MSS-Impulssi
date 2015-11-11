@@ -5,10 +5,10 @@ module.exports =
     name: "hhSteroidsCoffee"
 
   # steroidsAppId and steroidsApiKey headers are required by Supersonic Data
-  # network:
-  #   extraResponseHeaders:
-  #     "Access-Control-Allow-Origin": "*"
-  #     "Access-Control-Allow-Headers": "Content-Type, X-Requested-With"
+  network:
+    extraResponseHeaders:
+      "Access-Control-Allow-Origin": "*"
+      "Access-Control-Allow-Headers": "Content-Type, X-Requested-With"
 
   webView:
     viewsIgnoreStatusBar: false

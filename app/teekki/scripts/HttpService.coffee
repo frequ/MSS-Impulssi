@@ -2,10 +2,10 @@ angular
   .module('teekki')
   .factory 'httpService', ($http) ->
 
-    # TODO: put json in mssdomain
-
-    # url = "https://www.miinasillanpaa.fi/json/"
-    url = "/json/"
+    # use mss domain in production
+    url = "https://www.miinasillanpaa.fi/hh/json/"
+    # local url for debugging
+    # url = "/json/"
 
     httpService = {}
 

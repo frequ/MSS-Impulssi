@@ -1,6 +1,6 @@
 {
     "name": "Kokemuksia ja vinkkejä",
-    "lead": "Sinä olet oman elämäsi paras asiantuntija. Pystyt vaikuttamaan omaan elämääsi ja elämäsi suunnitteluun. Sinulla on oikeus tehdä asioita, joista nautit ja joita haluat tehdä. Sinulla on oikeus tehdä omaa elämääsi koskevia päätöksiä. Oman elämän asiantuntijuus vaatii kuitenkin harjoittelua. Tarkastelemalla muiden kokemuksia voit ymmärtää enemmän ja oppia uutta itsestäsikin. Ihmisen kehitys jatkuu läpi koko elämän. Ympäristö, ja toisaalta biologiset tekijät, asettavat kehitykselle mahdollisuuksia ja rajoituksia. Tehtäväsi on hyödyntää mahdollisuuksia. ”Et voi muuttaa tuulen suuntaa, mutta voit aina virittää purjeet uudelleen (Billie Joe Armstrong).” Tarkastele muiden vinkkejä ja ajatuksia − voit saada niistä lisää tuulta purjeisiisi.",
+    "lead": "<p>Sinä olet oman elämäsi paras asiantuntija. Sinulla on oikeus tehdä asioita, joista nautit ja joita haluat tehdä. Sinulla on oikeus tehdä omaa elämääsi koskevia päätöksiä. Oman elämän asiantuntijuus voi vaatia harjoittelua. Tarkastelemalla muiden kokemuksia voit ymmärtää enemmän ja oppia uutta itsestäsi.</p><p>Ihmisen kehitys jatkuu läpi koko elämän. Ympäristö ja biologiset tekijät asettavat kehitykselle mahdollisuuksia ja rajoituksia. Tehtäväsi on hyödyntää mahdollisuuksia.</p><p>Tarkastele muiden vinkkejä ja ajatuksia − voit saada niistä lisää tuulta purjeisiisi.</p><p><blockquote>”Et voi muuttaa tuulen suuntaa, mutta voit aina virittää purjeet uudelleen.”<br/> - Billie Joe Armstrong</blockquote></p>",
     "events": [{
             "id": 0,
             "name": "Uusi vuosi ja toivo (29 min)",
@@ -18,7 +18,7 @@
             "category": "Kokemuksia ja vinkkejä"
         },{
             "id": 3,
-            "name": "Ikääntyvän mielenterveys gallup-tutkimus",
+            "name": "Ikääntyvän mielenterveys, gallup-tutkimus",
             "videoId": "ZOWjPdLsZbw",
             "category": "Kokemuksia ja vinkkejä"
         },{

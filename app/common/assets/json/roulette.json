@@ -17,13 +17,13 @@
     "category": "Elämyksiä taiteesta ja kulttuurista"
 },{
     "id": 3,
-    "name": "Liikettä niveliin - Eloisa ikä",
+    "name": "Liikettä niveliin – Eloisa ikä",
     "videoId": "0KeWj9z4KVk",
     "category": "Elämyksiä taiteesta ja kulttuurista"
 },{
     "id": 4,
     "name": "Vietä voimahetki",
-    "content": "Etsi itsellesi lähistön luonnosta sopiva voimapaikka ja kokeile vaikkapa halata hetki puuta. Puun halaaminen virkistää mielen. Stressihormonit poistuvat ja ihminen rauhoittuu. Shamanismissa esimerkiksi kuusta on pidetty lempeänä ja ystävällisenä puuna. Sen kautta voi ymmärtää tautien ja sairauksien syitä. Se puhdistaa ja tyynnyttää."
+    "content": "Etsi lähistön luonnosta sopiva voimapaikka ja kokeile halata hetki puuta. Puun halaaminen virkistää mielen. Stressihormonit poistuvat ja ihminen rauhoittuu. Shamanismissa esimerkiksi kuusta on pidetty lempeänä ja ystävällisenä puuna, joka puhdistaa ja tyynnyttää."
 },{
     "id": 5,
     "name": "Video ystävyydestä",
@@ -56,7 +56,7 @@
     "category": "Harjoita mielen tasapainoa"
 },{
     "id": 10,
-    "name": "Hyvän mielen metsäkävely - Kesä",
+    "name": "Hyvän mielen metsäkävely – Kesä",
     "videoId": "wqasPNZd3uU",
     "content": "Lähde mukaan virtuaaliselle metsäkävelylle. Hyvää mieltä kesäisestä luonnosta:",
     "category": "Harjoita mielen tasapainoa"
@@ -102,7 +102,7 @@
 },{
     "id": 17,
     "name": "Musiikin tahtiin!",
-    "content": "Antaudu musiikin vietäväksi! Laita tanssittavaa mielimusiikkiasi soimaan ja irrottele oikein kunnolla yhden kappaleen ajan. Twistausta, sheikkausta, heilutusta, keinutusta, tuolitanssia tai humppaa… anna mennä!<img src=\"/img/tanssikuva.jpg\" \/>"
+    "content": "Antaudu musiikin vietäväksi! Laita tanssittavaa mielimusiikkiasi soimaan ja irrottele oikein kunnolla yhden kappaleen ajan. Twistausta, sheikkausta, heilutusta, keinutusta, tuolitanssia tai humppaa… Anna mennä! <img src=\"/img/tanssikuva.jpg\" \/>"
 },{
     "id": 18,
     "name": "Tee rentoutushengitysharjoitus",
@@ -121,7 +121,7 @@
 },{
     "id": 21,
     "name": "Hyväksyvä mieli -harjoitus",
-    "content": "Hyväksy ajatuksesi ja tunteesi - se, mitä et voi muuttaa. Tee harjoitus: <button class=\"button button-stable button-block\">Aloita harjoitus tästä</button>",
+    "content": "Hyväksy ajatuksesi ja tunteesi – se, mitä et voi muuttaa. Tee harjoitus. <button class=\"button button-stable button-block\">Aloita harjoitus tästä</button>",
     "externalUrl": "http://oivamieli.fi/hyvaksyva_mieli_intro.php"
 },{
     "id": 22,
@@ -140,23 +140,23 @@
     "externalUrl": "http://oivamieli.fi/matkustajat_bussissa.php"
 },{
     "id": 25,
-    "name": "Hyvän mielen metsäkävely - Talvi",
+    "name": "Hyvän mielen metsäkävely – Talvi",
     "videoId": "8ZY78mNG2_Q",
     "category": "Harjoita mielen tasapainoa"
 },{
     "id": 26,
-    "name": "Hyvän mielen metsäkävely - Kevät",
+    "name": "Hyvän mielen metsäkävely – Kevät",
     "videoId": "be2VNfm4-qg",
     "category": "Harjoita mielen tasapainoa"
 },{
     "id": 27,
-    "name": "Hyvän mielen metsäkävely - Syksy",
+    "name": "Hyvän mielen metsäkävely – Syksy",
     "videoId": "DEUpOV3eSVU",
     "category": "Harjoita mielen tasapainoa"
 },{
     "id": 28,
     "rouletteContent": true,
-    "name": "Kehon kuuntelu iltaisin - Mindfulness-harjoitus",
+    "name": "Kehon kuuntelu iltaisin – Mindfulness-harjoitus",
     "videoId": "fZ_al1GA8Y8",
     "category": "Harjoita mielen tasapainoa"
 },{
@@ -173,7 +173,7 @@
 },{
     "id": 31,
     "name": "Lähetä kortti",
-    "content": "Lähetä kortti jollekin ystävällesi, sukulaiselle, vanhalle tutulle tai henkilölle, joka ensimmäisenä tulee mieleesi. Kortin sähköpostiosoitteeseen voit maksutta lähettää myös näiden linkkien kautta: <button class=\"button button-stable button-block\")>Tästä</button>",
+    "content": "Lähetä kortti jollekin ystävällesi, sukulaiselle, vanhalle tutulle tai henkilölle, joka ensimmäisenä tulee mieleesi. Sähköpostitse voit lähettää kortin maksutta: <button class=\"button button-stable button-block\")>Tästä</button>",
     "externalUrl": "http://www.eloisaika.fi/eloisa-ika/eloisat-hahmot/laheta-e-kortti"
 },{
     "id": 32,
@@ -213,7 +213,7 @@
     "belongsTo": "Vetreyttä ja notkeutta joogalla"
 },{
     "id": 38,
-    "name": "Karkoita väsymys joogalla, seisten",
+    "name": "Karkota väsymys joogalla, seisten",
     "videoId": "p08TkF8QBRM",
     "category": "Liikettä niveliin",
     "belongsTo": "Vetreyttä ja notkeutta joogalla"

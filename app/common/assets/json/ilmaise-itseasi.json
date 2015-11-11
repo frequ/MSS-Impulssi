@@ -1,6 +1,6 @@
 {
     "name": "Ilmaise itseäsi",
-    "lead": "Muistisairaus muuttaa ihmisen kykyä ilmaista itseään ja ymmärtää viestintää. Se ei kuitenkaan vähennä tarvetta olla muiden parissa ja tulla ymmärretyksi. Vaikeus löytää sanoja voi turhauttaa ja tehdä keskustelusta työläämpää.  Muutos voi aiheuttaa väärinymmärryksiä ja vetäytymistä keskusteluista.  Muutos ei tapahdu yleensä hetkessä, mikä antaa sekä sairastuneelle itselleen että hänen läheisilleen aikaa sopeutua uuteen tilanteeseen. Kommunikoinnin taidossa voi kehittyä ja sitä voi tukea monella tapaa. Tärkeää on hienovaraisuus ja toisen kunnioittaminen. Hyvä kohtaaminen voi toteutua myös muilla keinoilla kuin puhumisella; hiljaa olemalla, katseella, hymyllä, kosketuksella ja läheisyydellä. Kaikilla on tarve näyttää tunteensa, tulla rakastetuiksi ja kohdatuksi tasa-arvoisina ihmisinä riippumatta iästä, sairaudesta tai seksuaalisesta suuntautumisesta. ”Toisen kuunteleminen on erityisen tärkeää silloin, kun mitään ei kuulu.” - Paula Sainio (Lähde: Muistisairauden kohtaaminen  – Opas muistisairaan perheelle ja läheisille. Tampere 2014. Koski Anna)",
+    "lead": "<p>Muistisairaus muuttaa ihmisen kykyä ilmaista itseään ja ymmärtää viestintää. Se ei kuitenkaan vähennä tarvetta olla muiden parissa ja tulla ymmärretyksi. Vaikeus löytää sanoja voi turhauttaa ja aiheuttaa pelkoa osallistua keskusteluihin täysipainoisesti. Muutos ei tapahdu yleensä hetkessä, mikä antaa sekä sairastuneelle että hänen läheisilleen aikaa sopeutua uuteen tilanteeseen.</p><p>Kommunikoinnin taidossa voi kehittyä. Hyvä, toista kunnioittava kohtaaminen voi toteutua myös muilla keinoilla kuin puhumisella: hiljaa olemalla, katseella, hymyllä, kosketuksella ja läheisyydellä. Kaikilla on tarve näyttää tunteensa, tulla rakastetuiksi ja kohdatuksi tasa-arvoisina ihmisinä riippumatta iästä, sairaudesta tai seksuaalisesta suuntautumisesta.</p><p><blockquote>”Toisen kuunteleminen on erityisen tärkeää silloin, kun mitään ei kuulu.”<br/> - Paula Sainio</blockquote></p><p>Lähde: Koski, Anna 2014: Muistisairauden kohtaaminen. Opas muistisairaan perheelle ja läheisille. Novartis.</p>",
     "events": [{
             "id": 0,
             "rouletteContent": true,
@@ -19,7 +19,7 @@
             "id": 2,
             "name": "Pekan ja Einon tarina",
             "videoId": "BmdTm7u3RP4",
-            "content": "Raha-automaattiyhdistyksen Eloisa ikä -avustusohjelman piirrosanimaatiossa kerrotaan Pekan ja Einon tarina. Tarina alkaa vuodesta 1963, kun Pekka ensimmäisen kerran ihastuu oikein toden teolla. Video vie sinut mielenkiintoiselle aikamatkalle - päätyen nykyaikaan, jolloin yhdenvertaisen vanhuuden soisi kuuluvan kaikille. Video on Eloisa ikä -ohjelman tuottamaa aineistoa ja tehty yhteistyössä Setan Yhdenvertainen vanhuus -projektin kanssa",
+            "content": "Raha-automaattiyhdistyksen Eloisa ikä -avustusohjelman piirrosanimaatiossa kerrotaan Pekan ja Einon tarina. Tarina alkaa vuodesta 1963, kun Pekka ensimmäisen kerran ihastuu oikein toden teolla. Video vie sinut mielenkiintoiselle aikamatkalle − päätyen nykyaikaan, jolloin yhdenvertaisen vanhuuden soisi kuuluvan kaikille. Video on Eloisa ikä -ohjelman tuottamaa aineistoa ja tehty yhteistyössä Setan Yhdenvertainen vanhuus -projektin kanssa.",
             "category": "Ilmaise itseäsi"
         },{
             "id": 3,
@@ -42,8 +42,13 @@
             "id": 6,
             "rouletteContent": true,
             "name": "Parirentoutus",
-            "content": "Tässä harjoituksessa kuulet rentoutusohjeet ja musiikkia. Aloittakaa rentoutus istuutumalla tukevasti selkänojalliselle tuolille. Musiikkina on Tárregan Lágrima, Händelin Largo, Corellin Preludio ja Bachin Siciliano. Kesto 10 ja puoli minuuttia.",
+            "content": "Tässä harjoituksessa kuulet rentoutusohjeet ja musiikkia. Aloittakaa rentoutus istuutumalla tukevasti selkänojalliselle tuolille. Musiikkina on Tárregan Lágrima, Händelin Largo, Corellin Preludio ja Bachin Siciliano. Kesto on 10 ja puoli minuuttia.",
             "category": "Ilmaise itseäsi",
             "videoId": "4z_Q1E18Nb0"
+    },{
+      "id": 7,
+      "name": "Ole oma itsesi − läpi elämän",
+      "content": "Ikääntyvä yhteiskunta tarvitsee raikasta ajattelua, häiritseviä ideoita ja päämäärätietoista toimintaa kehittyäkseen. ProudAge -liike lähestyy aihetta uusista, innoittavista näkökulmista ja toimii edelläkävijänä vanhuuden vallankumouksen käynnistäjänä! Kuvassa ProudAge -juliste.<img src=\"/img/proudage2.jpg\" />",
+      "category": "Ilmaise itseäsi"
     }]
 }

@@ -1,6 +1,6 @@
 {
     "name": "Elämyksiä löytämään",
-    "lead": "”Mitä varten on elämä? Mitä varten on taide? Elämä on kokemusten keräämistä varten. Taide on elämän heräämistä varten. (Kirsi Kunnas)” Aktivoi aivojasi altistumalla uudelle; esimerkiksi kirjallisuudelle, musiikille, tanssille, teatterille, liikuntalajeille, kielille tai käsitöille. Musiikki vaikuttaa laaja-alaisesti aivoihin. Samoin tiedetään taiteen yleisemmin vaikuttavan terveyteen ja pitkäikäisyyteen yhtä tehokkaasti kuin liikunta ikääntyvillä henkilöillä. Taide ja kulttuuri voivat herättää muistoja, jotka eheyttävät, rakentavat ymmärrystä, yhteisöllisyyttä, välittämisen kulttuuria ja itsetuntoa.",
+    "lead": "<p>Aktivoi aivojasi altistumalla uudelle, esimerkiksi kirjallisuudelle, musiikille, tanssille, teatterille, liikuntalajeille, kielille tai käsitöille. Taide vaikuttaa ikääntyvien terveyteen ja pitkäikäisyyteen yhtä tehokkaasti kuin liikunta. Taide ja kulttuuri voivat herättää muistoja, jotka eheyttävät, rakentavat ymmärrystä, yhteisöllisyyttä, välittämisen kulttuuria ja itsetuntoa.</p><p><blockquote>”Mitä varten on elämä? Mitä varten on taide? Elämä on kokemusten keräämistä varten. Taide on elämän heräämistä varten.”<br/> - Kirsi Kunnas</blockquote></p>",
     "subcategories": [{
             "name": "Taide ja kulttuuri"
         },{
@@ -128,7 +128,7 @@
         "id": 16,
         "rouletteContent": true,
         "name": "Vietä runohetki",
-        "content": "<div class=\"text-center\">Ihmisenä oleminen on vierasmaja<br/> joka aamu tulee uusi vieras.<br/>Ilo, masennus, ilkeys,<br/>äkillinen tietoisuuden hetki, kaikki<br/>tulevat kuin odottamattomat vieraat.<br/>Toivota tervetulleeksi ja viihdytä niitä kaikkia!<br/>Vaikka ne olisivat murheiden joukkio,<br/>joka raastaa talosi raivokkaasti<br/>tyhjäksi huonekaluista,<br/>kohtele silti jokaista vierasta kunnioittavasti.<br/>He voivat olla tyhjentämässä sinua<br/>uutta iloa varten<br/>Synkkä ajatus, häpeä, kauna -<br/>ota ne vastaa nauraen<br/>ja kutsu ne sisään.<br/>Ole kiitollinen kaikista tulijoista<br/>sillä niistä jokainen on lähetetty<br/>oppaaksi tuonpuoleisesta.<br/>(Rumi 1200-luvulla)</div>",
+        "content": "<div class=\"text-center\">Ihmisenä oleminen on vierasmaja<br/> joka aamu tulee uusi vieras.<br/>Ilo, masennus, ilkeys,<br/>äkillinen tietoisuuden hetki, kaikki<br/>tulevat kuin odottamattomat vieraat.<br/>Toivota tervetulleeksi ja viihdytä niitä kaikkia!<br/>Vaikka ne olisivat murheiden joukkio,<br/>joka raastaa talosi raivokkaasti<br/>tyhjäksi huonekaluista,<br/>kohtele silti jokaista vierasta kunnioittavasti.<br/>He voivat olla tyhjentämässä sinua<br/>uutta iloa varten<br/>Synkkä ajatus, häpeä, kauna −<br/>ota ne vastaa nauraen<br/>ja kutsu ne sisään.<br/>Ole kiitollinen kaikista tulijoista<br/>sillä niistä jokainen on lähetetty<br/>oppaaksi tuonpuoleisesta.<br/>(Rumi 1200-luvulla)</div>",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
     },{
@@ -148,7 +148,7 @@
         "id": 19,
         "name": "Kyläilykulttuuri (28 min)",
         "videoId": "OmNNL820sLo",
-        "content": "Pirren olkkarissa vieraina Tuula Juntunen Sanna Lajunen.",
+        "content": "Pirren olkkarissa vieraina Tuula Juntunen ja Sanna Lajunen.",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Perinteet ja historian havinaa"
     },{
@@ -161,7 +161,7 @@
         "id": 21,
         "name": "Kansanperinne (27 min)",
         "videoId": "GXmrZQkqWII",
-        "content": "Onko kertakäyttökulttuuri jyrännyt kansanperinteen ja itsetekemisentaidot alleen, voimmeko ottaa perinteistä kestävän kehityksen mallia. Aihhesta keskustelemassa Elina Koskelainen ja Saila Leskinen",
+        "content": "Onko kertakäyttökulttuuri jyrännyt kansanperinteen ja itsetekemisen taidot alleen, voimmeko ottaa perinteistä kestävän kehityksen mallia? Aiheesta ovat keskustelemassa Elina Koskelainen ja Saila Leskinen",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Perinteet ja historian havinaa"
     },{
@@ -179,9 +179,9 @@
     },{
         "id": 24,
         "rouletteContent": true,
-        "name": "Kulttuurista muistoja – eloisasti",
+        "name": "Kulttuurista muistoja − eloisasti",
         "videoId": "d0lflMTXCiA",
-        "content": "Varoitus: Eloisa ikä -ohjelmaan kuuluvan Etelä-Pohjanmaan Muistiyhdistyksen Kulttuurista muistoja -hankkeen tekemä video sisältää elämyksiä ja yhteisöllisyyttä, jotka saattavat liikuttaa katsojaa. Etelä-Pohjanmaalla ennaltaehkäistään muistisairauksia tarjoamalla ikääntyville kulttuuri- ja taideharrastusmahdollisuuksia lähipalveluna. Taide-elämyksiä tarjotaan myös muistioireisille, muistisairaille ja heidän omaisilleen. Ei kun Letkis soimaan! (Lisätietoa www.muistiyhdistys.fi; www.eloisaika.fi)",
+        "content": "Varoitus: Eloisa ikä -ohjelmaan kuuluvan Etelä-Pohjanmaan Muistiyhdistyksen Kulttuurista muistoja -hankkeen laatima video sisältää elämyksiä ja yhteisöllisyyttä, jotka saattavat liikuttaa katsojaa. Etelä-Pohjanmaalla ennaltaehkäistään muistisairauksia tarjoamalla ikääntyville kulttuuri- ja taideharrastusmahdollisuuksia lähipalveluna. Taide-elämyksiä tarjotaan myös muistioireisille, muistisairaille ja heidän omaisilleen. Ei kun Letkis soimaan! <p>Lisätietoa www.muistiyhdistys.fi; www.eloisaika.fi.</p>",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
     },{
@@ -214,7 +214,7 @@
     },{
         "id": 29,
         "rouletteContent": true,
-        "name": "Liikettä niveliin - Eloisa ikä",
+        "name": "Liikettä niveliin − Eloisa ikä",
         "videoId": "0KeWj9z4KVk",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"

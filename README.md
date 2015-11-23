@@ -1,3 +1,5 @@
-# hhSteroidsCoffee
+#Impulssi
 
-rewrote using supersonic for routing and coffee script
+hhSteroidsCoffee is Impulssi (old Hyvinvointiteekki)
+
+Rewrote using supersonic for routing and coffee script

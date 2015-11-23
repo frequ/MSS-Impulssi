@@ -25,6 +25,9 @@ img {
   width: 100%;
   height: 100%;
 }
+blockquote {
+  margin: 20px 0 15px;
+}
 .spinner {
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;

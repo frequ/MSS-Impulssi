@@ -1,3 +1,5 @@
+@import "colors";
+
 .supersonic-navbar-mock {
   background-color: #d2ac2b !important;
   text-align: center;
@@ -31,4 +33,27 @@ img {
 blockquote {
   margin: 20px 0 15px;
 }
-  
+
+// button styles
+
+.btn-mss-blue{
+    color: @mssBlue100;
+    border: 1px solid @mssBlue80;
+    background-color: @mssLightBlueBg;
+    &:hover{
+        background-color: white;
+        border: 1px solid @mssBlue80;
+        color: @mssBlue100;
+    }
+}
+
+.btn-mss-gold{
+    background-color: @mssGold70;
+    color: @mssBlue100;
+    border: 1px solid @mssBlue80;
+    &:hover{
+        background-color: @mssGold70;
+        color: @mssBlue100;
+        border: 2px solid @mssBlue80;
+    }
+}

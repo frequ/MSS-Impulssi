@@ -9,13 +9,17 @@
   <div ng-hide="showRoulette" class="padding">
     <h3>Valitse aiheista mieluistaa tekemistä:</h3>
 
-    <super-navigate class="button-wrapper" location="teekki#category?id={{ category.id }}" ng-repeat="category in categories">
-      <button class="button button-block button-stable">
+    <super-navigate class="button-wrapper"
+    location="teekki#category?id={{ category.id }}"
+    ng-repeat="category in categories">
+      <button class="button button-block btn-mss-blue">
         {{ category.name }}
       </button>
     </super-navigate>
 
-    <button class="button button-royal button-block roulette-btn" ng-click="enableRoulette()">Elämysruletti</button>
+    <button class="button button-block btn-mss-gold" ng-click="enableRoulette()">
+      Elämysruletti
+    </button>
   </div>
 
 </div>

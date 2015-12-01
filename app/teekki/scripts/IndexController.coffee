@@ -1,41 +1,37 @@
 angular
   .module('teekki')
-  .controller 'IndexController', ($scope, supersonic, $rootScope, httpService) ->
+  .controller 'IndexController', ($scope, supersonic, httpService) ->
 
     $scope.categories = null
     $scope.rouletteContent = null
-    $rootScope.showRoulette = false
 
     _fetchCategories =  ->
-      httpService.getCategories().then (data) ->
-        data = data.data
-        categories = []
+      supersonic.ui.dialog.spinner.show("Ladataan sisältöä..")
+      httpService.getCategories()
+        .then (data) ->
+          data = data.data
+          categories = []
 
-        for item in data
-          categoryObj = {}
-          categoryObj.name = item
-          categoryObj.id = item.replace(/ä/g, "a")
-            .replace(/ö/g, "o")
-            .split(' ')
-            .join('-').toLowerCase()
+          for item in data
+            categoryObj = {}
+            categoryObj.name = item
+            categoryObj.id = item.replace(/ä/g, "a")
+              .replace(/ö/g, "o")
+              .split(' ')
+              .join('-').toLowerCase()
 
-          categories.push categoryObj
+            categories.push categoryObj
 
-        $scope.categories = categories
+          $scope.categories = categories
+
+        .catch (error) ->
+          supersonic.logger.error error.message
+
+        .finally ->
+          supersonic.ui.dialog.spinner.hide()
 
     _fetchCategories()
 
-    _fetchRoulette = ->
-      httpService.getRoulette().then (data) ->
-        data = data.data
-        $scope.rouletteContent = data
-
-    _fetchRoulette()
-
     $scope.enableRoulette = ->
-      $rootScope.showRoulette = true
-      supersonic.ui.animate('slideFromRight').perform()
-
-      # coffeelint: disable=max_line_length
-      localStorage.setItem 'activeCategory', JSON.stringify($scope.rouletteContent)
-      # coffeelint: enable=max_line_length
+      rouletteView = new supersonic.ui.View "teekki#roulette"
+      supersonic.ui.layers.push rouletteView

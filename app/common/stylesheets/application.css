@@ -25,6 +25,13 @@ img {
   width: 100%;
   height: 100%;
 }
+.padding .card {
+  margin-top: 0;
+}
+.padding .card .item-text-wrap p {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
 blockquote {
   margin: 20px 0 15px;
 }
@@ -110,8 +117,55 @@ blockquote {
   white-space: nowrap;
   text-overflow: ellipsis;
   border-radius: 0;
-  border: 1px solid #552bdf;
   z-index: 1;
+}
+.sprite {
+  background: url('/img/sprite@2x.png') no-repeat top left;
+  background-size: 64px 730px;
+  width: 64px;
+  height: 64px;
+  margin: 7px 0;
+  line-height: normal;
+  display: inline;
+  float: left;
+}
+.sprite-btn {
+  height: 80px;
+  line-height: 80px;
+  color: #000;
+}
+.sprite-row {
+  display: none;
+}
+.sprite.elamyksia-loytamaan {
+  background-position: 0 0;
+}
+.sprite.elamysruletti {
+  background-position: 0 -74px;
+}
+.sprite.harjoita-mielen-tasapainoa {
+  background-position: 0 -148px;
+}
+.sprite.ilmaise-itseasi {
+  background-position: 0 -222px;
+}
+.sprite.innostu-aivotreenista {
+  background-position: 0 -296px;
+}
+.sprite.kaaos-kuriin {
+  background-position: 0 -370px;
+}
+.sprite.kokemuksia-ja-vinkkeja {
+  background-position: 0 -444px;
+}
+.sprite.koti-kuntoon {
+  background-position: 0 -518px;
+}
+.sprite.liiketta-niveliin {
+  background-position: 0 -592px;
+}
+.sprite.ravinnolla-terveytta {
+  background-position: 0 -666px;
 }
 /* iPad in portrait and up */
 @media only screen and (min-device-width: 768px) {
@@ -136,5 +190,24 @@ blockquote {
   .padding .roulette-btn {
     width: 97%;
     margin: 0 1%;
+  }
+  .padding .sprite-row {
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+  }
+  .padding .sprite-row h3 {
+    line-height: inherit;
+  }
+  .padding .sprite-btn i {
+    margin: 42px 0;
+  }
+  .padding .sprite-btn span {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    line-height: 1.5em;
+    height: 150px;
   }
 }

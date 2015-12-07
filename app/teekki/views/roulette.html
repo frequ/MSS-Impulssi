@@ -15,7 +15,7 @@
           <div class="winning-line"></div>
 
           <div class="spinner-item-wrap">
-              <button ng-repeat="item in items track by $index" class="button button-royal roulette-item">
+              <button ng-repeat="item in items track by $index" class="button button-stable roulette-item">
                   {{ item.name }}
               </button>
           </div>
@@ -23,7 +23,7 @@
 
   </div>
 
-  <button class="button button-positive button-block" ng-click="spin()" ng-disabled="running">
+  <button class="button btn-mss-gold button-block" ng-click="spin()" ng-disabled="running">
     Käynnistä ruletti!
   </button>
 

@@ -27,6 +27,7 @@ angular
       $scope.subcategories = subcategoryObjsArray
 
     _fetchCategory = (categoryId) ->
+      $scope.categoryId = categoryId;
       httpService.getCategory(categoryId).then (data) ->
         data = data.data
         $scope.title = data.name

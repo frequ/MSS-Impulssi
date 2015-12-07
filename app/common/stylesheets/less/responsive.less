@@ -1,3 +1,5 @@
+@import "colors";
+
 /* iPad in portrait and up */
 @media only screen and (min-device-width: 768px) {
 
@@ -20,12 +22,35 @@
     .button-block {
       height: 150px;
       font-size: 150%;
-   }
+    }
 
-   .roulette-btn {
-     width: 97%;
-     margin: 0 1%;
-   }
+    .roulette-btn {
+      width: 97%;
+      margin: 0 1%;
+    }
+
+    .sprite-row{
+      display: inline-block;
+      height: 80px;
+      line-height: 80px;
+      h3{
+        line-height: inherit;
+      }
+    }
+
+    .sprite-btn{
+      i {
+        margin: 42px 0;
+      }
+      span{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        line-height: 1.5em;
+        height: 150px;
+      }
+    }
 
   }
 }

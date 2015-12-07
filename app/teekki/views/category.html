@@ -7,6 +7,11 @@
 
   <div class="padding">
 
+    <div class="row sprite-row">
+        <i class="sprite" ng-class="categoryId"></i>
+        <h3 ng-bind="title"></h3>
+    </div>
+
     <div ng-show="lead" class="card">
       <div class="item item-text-wrap" ng-bind-html="lead">
       </div>

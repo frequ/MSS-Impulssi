@@ -1,5 +1,13 @@
-#Impulssi
+# Impulssi
 
-hhSteroidsCoffee is Impulssi (old Hyvinvointiteekki)
+## Getting started
 
-Rewrote using supersonic for routing and coffee script
+  steroids update
+  steroids connect
+
+## (Major) Changes log
+
+Roulette as own view instead of directive.
+hhSteroidsCoffee is Impulssi (old Hyvinvointiteekki).
+Fetch JSON-data from elsewhere.
+Rewrote using supersonic for routing and coffee script.

@@ -9,7 +9,6 @@ Impulssi description needed
 
 ## (Major) Changes log
 
-Roulette as own view instead of directive.
-hhSteroidsCoffee is Impulssi (old Hyvinvointiteekki).
-Fetch JSON-data from elsewhere.
-Rewrote using supersonic for routing and coffee script.
+- Impulssi now uses icons from sprite image. Some MSS stylings included.
+
+- Roulette as own view instead of directive. hhSteroidsCoffee is Impulssi (old Hyvinvointiteekki). Fetch JSON-data from elsewhere. Rewrote using supersonic for routing and coffee script.

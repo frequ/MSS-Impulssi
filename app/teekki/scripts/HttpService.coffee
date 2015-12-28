@@ -3,9 +3,10 @@ angular
   .factory 'httpService', ($http) ->
 
     # use mss domain in production
-    url = "https://www.miinasillanpaa.fi/hh/json/"
+    # TODO: CORS FAILS IN ANDROID?
+    # url = "https://www.miinasillanpaa.fi/hh/json/"
     # local url for debugging
-    # url = "/json/"
+    url = "/json/"
 
     httpService = {}
 

@@ -9,8 +9,8 @@
 
     <p compile="event.content" url="{{ event.externalUrl }}"></p>
 
-      <div ng-if="ytUrl" class="video-container">
-        <iframe ng-src="{{ ytUrl }}" frameborder="0"></iframe>
+      <div class="video-container">
+        <youtube-video video-id=videoId></youtube-video>
       </div>
 
   </div>

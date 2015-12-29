@@ -16,6 +16,11 @@
 img {
   width: 100%;
 }
+.source {
+  font-size: .8em;
+  line-height: 1em;
+  color: #656565;
+}
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -32,10 +37,6 @@ img {
   font-size: 1.2em;
   line-height: 1.2em;
   padding-bottom: 15px;
-}
-.padding .card .item-text-wrap .source {
-  font-size: .8em;
-  line-height: .8em;
 }
 .btn-mss-blue {
   color: #002366;
@@ -55,6 +56,16 @@ img {
 .btn-mss-gold:hover {
   background-color: rgba(210, 172, 43, 0.7);
   color: #002366;
+  border: 1px solid rgba(0, 35, 102, 0.8);
+}
+.btn-mss-blue30 {
+  background-color: rgba(0, 35, 102, 0.3);
+  color: #000;
+  border: 1px solid rgba(0, 35, 102, 0.8);
+}
+.btn-mss-blue30:hover {
+  background-color: rgba(0, 35, 102, 0.3);
+  color: #000;
   border: 1px solid rgba(0, 35, 102, 0.8);
 }
 .spinner {

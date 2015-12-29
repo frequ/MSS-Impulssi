@@ -21,6 +21,12 @@ img {
   width: 100%
 }
 
+.source{
+  font-size: .8em;
+  line-height: 1em;
+  color: #656565;
+}
+
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -38,10 +44,6 @@ img {
         font-size: 1.2em;
         line-height: 1.2em;
         padding-bottom: 15px;
-      }
-      .source{
-        font-size: .8em;
-        line-height: .8em;
       }
     }
   }
@@ -71,4 +73,15 @@ img {
         color: @mssBlue100;
         border: 1px solid @mssBlue80;
     }
+}
+
+.btn-mss-blue30{
+  background-color: @mssBlue30;
+  color: #000;
+  border: 1px solid @mssBlue80;
+  &:hover{
+      background-color: @mssBlue30;
+      color: #000;
+      border: 1px solid @mssBlue80;
+  }
 }

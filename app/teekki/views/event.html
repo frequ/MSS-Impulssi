@@ -10,6 +10,7 @@
     <p compile="event.content" url="{{ event.externalUrl }}"></p>
 
       <div class="video-container">
+        <span ng-show="error">Hups! Videon näyttäminen epäonnistui - yritä uudestaan.</span>
         <youtube-video video-id=videoId></youtube-video>
       </div>
 

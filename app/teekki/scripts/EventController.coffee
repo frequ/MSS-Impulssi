@@ -1,10 +1,11 @@
 angular
   .module('teekki')
-  .controller 'EventController', ($scope, supersonic, $sce) ->
+  .controller 'EventController', ($scope, supersonic, $sce, $timeout) ->
 
     $scope.event = null
     $scope.viewTitle = null
     $scope.videoId = null
+    $scope.error = false
 
     _fetchEvent = (eventId) ->
       category = JSON.parse(localStorage.getItem "activeCategory")
@@ -19,6 +20,11 @@ angular
 
       if $scope.event.videoId
         $scope.videoId = $scope.event.videoId
+
+        $timeout ( ->
+          $scope.error = true
+        ), 3000
+
 
     supersonic.ui.views.current.params.onValue (params) ->
       event_id = params.id

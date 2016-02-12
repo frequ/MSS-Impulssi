@@ -20,6 +20,11 @@ angular
               .split(' ')
               .join('-').toLowerCase()
 
+              if item == "Elämysruletti"
+                categoryObj.link = "#/ruletti"
+              else
+                categoryObj.link = "#/category/#{categoryObj.id}"
+
             categories.push categoryObj
 
           $scope.categories = categories

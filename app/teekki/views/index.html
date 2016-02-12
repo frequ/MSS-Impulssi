@@ -12,17 +12,20 @@
     <super-navigate class="button-wrapper"
     location="teekki#category?id={{ category.id }}"
     ng-repeat="category in categories">
-
-      <button class="button button-block btn-mss-blue sprite-btn">
+      <button class="button button-block btn-mss-blue sprite-btn"
+        ng-class="{'btn-mss-gold': category.name == 'Innostu aivotreenistä'}">
         <i class="sprite" ng-class="category.id"></i>
         <span>{{ category.name }}</span>
       </button>
     </super-navigate>
 
-    <button class="button button-block btn-mss-blue30 roulette-btn sprite-btn" ng-click="enableRoulette()">
-      <i class="sprite elamysruletti"></i>
-      <span>Elämysruletti</span>
-    </button>
+    <div class="button-wrapper">
+      <button class="button button-block btn-mss-gold sprite-btn"
+        ng-click="enableRoulette()">
+        <i class="sprite elamysruletti"></i>
+        <span>Elämysruletti</span>
+      </button>
+    </div>
   </div>
 
 </div>

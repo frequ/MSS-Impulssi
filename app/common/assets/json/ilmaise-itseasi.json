@@ -1,0 +1,32 @@
+{
+    "name": "Ilmaise itseäsi",
+    "lead": "<p>Muistisairaus muuttaa ihmisen kykyä ilmaista itseään ja ymmärtää viestintää. Se ei kuitenkaan vähennä tarvetta olla muiden parissa ja tulla ymmärretyksi. Vaikeus löytää sanoja voi turhauttaa ja aiheuttaa pelkoa osallistua keskusteluihin täysipainoisesti. Muutos ei tapahdu yleensä hetkessä, mikä antaa sekä sairastuneelle että hänen läheisilleen aikaa sopeutua uuteen tilanteeseen.</p><p>Kommunikoinnin taidossa voi kehittyä. Hyvä, toista kunnioittava kohtaaminen voi toteutua myös muilla keinoilla kuin puhumisella: hiljaa olemalla, katseella, hymyllä, kosketuksella ja läheisyydellä. Kaikilla on tarve näyttää tunteensa, tulla rakastetuiksi ja kohdatuksi tasa-arvoisina ihmisinä.</p><p><blockquote>”Toisen kuunteleminen on erityisen tärkeää silloin, kun mitään ei kuulu.”<br/> - Paula Sainio</blockquote></p><p class=\"source\">Lähde: Koski, Anna 2014: Muistisairauden kohtaaminen. Opas muistisairaan perheelle ja läheisille. Novartis.</p>",
+    "events": [{
+            "id": 0,
+            "name": "Luikauta laulu!",
+            "videoId": "uiGOYaNBCnQ",
+            "content": "Luikauta laulu! Oletko kokeillut karaokea? Laulamalla voit kehittää vuorovaikutustaitojasi. Tässä on tilaisuutesi kappaleen Laulun mahti tahtiin:",
+            "category": "Ilmaise itseäsi"
+        },{
+            "id": 1,
+            "name": "Anna äänesi kuulua!",
+            "videoId": "W11PdZdJteY",
+            "content": "Luikauta laulu! Oletko kokeillut karaokea? Laulamalla voit kehittää vuorovaikutustaitojasi. Tässä on tilaisuutesi kappaleen Voi tuota muistia tahtiin:",
+            "category": "Ilmaise itseäsi"
+        },{
+            "id": 2,
+            "name": "Musiikin tahtiin!",
+            "content": "Antaudu musiikin vietäväksi! Laita tanssittavaa mielimusiikkiasi soimaan ja irrottele oikein kunnolla yhden kappaleen ajan. Twistausta, sheikkausta, heilutusta, keinutusta, tuolitanssia tai humppaa… Anna mennä! <img src=\"/img/tanssikuva.jpg\" \/>"
+        },{
+            "id": 3,
+            "name": "Musiikilliset harjoitukset",
+            "content": "Musiikillisissa harjoituksissa kuulet laulua. Kun laulu pysähtyy, valitse vaihtoehdoista sanat, joilla laulu jatkuu. Onnea matkaan! <button class=\"button btn-mss-blue in-modal-btn\" ng-click=\"openUrl()\">Siirry harjoitteisiin</button>",
+            "category": "Ilmaise itseäsi",
+            "openUrl": "http://www.miinasillanpaa.fi/yhteinen-savel/#/games"
+        },{
+            "id": 4,
+            "name": "Vietä runohetki",
+            "content": "1. Valitse itsellesi runo/mietelause.<br/>2. Luo se ääneen tunnelmoiden sen sanomaa juuri sinulle.<br/><br/><div class=\"text-center\">Ihmisenä oleminen on vierasmaja<br/> joka aamu tulee uusi vieras.<br/>Ilo, masennus, ilkeys,<br/>äkillinen tietoisuuden hetki, kaikki<br/>tulevat kuin odottamattomat vieraat.<br/>Toivota tervetulleeksi ja viihdytä niitä kaikkia!<br/>Vaikka ne olisivat murheiden joukkio,<br/>joka raastaa talosi raivokkaasti<br/>tyhjäksi huonekaluista,<br/>kohtele silti jokaista vierasta kunnioittavasti.<br/>He voivat olla tyhjentämässä sinua<br/>uutta iloa varten<br/>Synkkä ajatus, häpeä, kauna −<br/>ota ne vastaa nauraen<br/>ja kutsu ne sisään.<br/>Ole kiitollinen kaikista tulijoista<br/>sillä niistä jokainen on lähetetty<br/>oppaaksi tuonpuoleisesta.<br/>(Rumi 1200-luvulla)</div>",
+            "category": "Ilmaise itseäsi"
+        }]
+}

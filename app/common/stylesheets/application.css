@@ -38,6 +38,10 @@ img {
   line-height: 1.2em;
   padding-bottom: 15px;
 }
+.in-modal-btn {
+  display: block;
+  margin-top: 15px;
+}
 .btn-mss-blue {
   color: #002366;
   border: 1px solid rgba(0, 35, 102, 0.8);

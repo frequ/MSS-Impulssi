@@ -11,7 +11,7 @@
       <div class="item item-text-wrap" compile="event.content" url="{{ event.openUrl }}"></div>
     </div>
 
-    <div class="video-container">
+    <div class="video-container" ng-show="videoId">
       <span ng-show="error">Hups! Videon näyttäminen epäonnistui. Ole hyvä ja yritä uudestaan.</span>
       <youtube-video video-id=videoId></youtube-video>
     </div>

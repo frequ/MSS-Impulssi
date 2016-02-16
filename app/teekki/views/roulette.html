@@ -6,25 +6,28 @@
     </super-navbar-title>
   </super-navbar>
 
-  <div id="reel">
+  <div id="vertical-center-roulette">
 
-      <div class="spinner">
+    <div id="reel">
 
-          <div class="shadow top-shadow"></div>
-          <div class="shadow bottom-shadow"></div>
-          <div class="winning-line"></div>
+        <div class="spinner">
 
-          <div class="spinner-item-wrap">
-              <button ng-repeat="item in items track by $index" class="button button-stable roulette-item">
-                  {{ item.name }}
-              </button>
-          </div>
-      </div>
+            <div class="shadow top-shadow"></div>
+            <div class="shadow bottom-shadow"></div>
+            <div class="winning-line"></div>
 
+            <div class="spinner-item-wrap">
+                <button ng-repeat="item in items track by $index" class="button button-stable roulette-item">
+                    {{ item.name }}
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="button btn-mss-blue30 button-block" ng-click="spin()" ng-disabled="running">
+      Käynnistä ruletti!
+    </button>
   </div>
-
-  <button class="button btn-mss-blue30 button-block" ng-click="spin()" ng-disabled="running">
-    Käynnistä ruletti!
-  </button>
 
 </div>

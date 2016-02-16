@@ -7,12 +7,14 @@
 
   <div class="padding">
 
-    <p compile="event.content" url="{{ event.externalUrl }}"></p>
+    <div ng-show="event.content" class="card">
+      <div class="item item-text-wrap" compile="event.content" url="{{ event.openUrl }}"></div>
+    </div>
 
-      <div class="video-container">
-        <span ng-show="error">Hups! Videon näyttäminen epäonnistui. Ole hyvä ja yritä uudestaan.</span>
-        <youtube-video video-id=videoId></youtube-video>
-      </div>
+    <div class="video-container">
+      <span ng-show="error">Hups! Videon näyttäminen epäonnistui. Ole hyvä ja yritä uudestaan.</span>
+      <youtube-video video-id=videoId></youtube-video>
+    </div>
 
   </div>
 

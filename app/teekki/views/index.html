@@ -9,23 +9,27 @@
   <div ng-hide="showRoulette" class="padding">
     <h3>Valitse aiheista mieluisaa tekemistä:</h3>
 
-    <super-navigate class="button-wrapper"
-    location="teekki#category?id={{ category.id }}"
-    ng-repeat="category in categories">
-      <button class="button button-block btn-mss-blue sprite-btn"
-        ng-class="{'btn-mss-gold': category.name == 'Innostu aivotreenistä'}">
-        <i class="sprite" ng-class="category.id"></i>
-        <span>{{ category.name }}</span>
-      </button>
-    </super-navigate>
+    <div ng-repeat="category in categories">
 
-    <div class="button-wrapper">
-      <button class="button button-block btn-mss-gold sprite-btn"
-        ng-click="enableRoulette()">
-        <i class="sprite elamysruletti"></i>
-        <span>Elämysruletti</span>
-      </button>
+      <super-navigate ng-if='category.name != "Elämysruletti"'
+        location="teekki#category?id={{ category.id }}">
+        <button class="button button-block btn-mss-blue sprite-btn"
+          ng-class="{'btn-mss-gold': category.name == 'Innostu aivotreenistä'}">
+          <i class="sprite" ng-class="category.id"></i>
+          <span>{{ category.name }}</span>
+        </button>
+      </super-navigate>
+
+      <div class="button-wrapper" ng-if='category.name == "Elämysruletti"'>
+        <button class="button button-block btn-mss-gold sprite-btn"
+          ng-click="enableRoulette()">
+          <i class="sprite elamysruletti"></i>
+          <span>Elämysruletti</span>
+        </button>
+      </div>
+
     </div>
+
   </div>
 
 </div>

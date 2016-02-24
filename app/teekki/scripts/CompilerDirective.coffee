@@ -5,7 +5,7 @@ angular
     replace: true,
     link: (scope, element, attrs) ->
 
-      scope.url = undefined
+       # scope.url = undefined
 
       scope.openUrl = ->
         supersonic.app.openURL scope.url

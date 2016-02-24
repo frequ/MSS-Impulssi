@@ -7,6 +7,7 @@ angular
     $scope.videoId = null
     $scope.error = false
     $scope.imagePath = "\/img"
+    $scope.buttonStyle = "button button-stable"
 
     _fetchEvent = (eventId) ->
       category = JSON.parse(localStorage.getItem "activeCategory")

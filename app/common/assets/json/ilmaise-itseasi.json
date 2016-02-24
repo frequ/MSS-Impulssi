@@ -1,67 +1,0 @@
-{
-  "name": "Ilmaise itseäsi",
-  "lead": "<p>On tärkeää, että jokainen löytää keinoja itseilmaisuun ja pystyy tuomaan esille itselleen tärkeät asiat. Puhumisen lisäksi ihminen voi ilmaista itseään monella tavalla esim. laulamalla, tanssimalla, piirtämällä, kirjoittamalla jne.</p><blockquote>Miks laulaisin siis minä, jolle on kantelo  suotu,<br/> riemuja muita ja murheita muita?<br/> Taida en lukea tähtiä taivahan kannen,<br/> en kaloja meren,<br/> en kukkia nurmen.<br/> Laulan ma siis, mit’ on ihmisen laulaa suotu.<br/>- Eino Leino, runosta Väinämöisen laulu</blockquote>",
-  "subcategories": [{
-      "name": "Eläydy musiikkiin"
-    },{
-      "name": "Aforismit ja runot",
-      "lead": "Valitse itsellesi päivään sopiva aforismi tai runo. Luo se ääneen tunnelmoiden sen sanomaa juuri sinulle."
-    }],
-  "events": [{
-    "id": 0,
-    "name": "Luikauta laulu!",
-    "videoId": "uiGOYaNBCnQ",
-    "content": "Luikauta laulu! Oletko kokeillut karaokea? Laulamalla voit kehittää vuorovaikutustaitojasi. Tässä on tilaisuutesi kappaleen Laulun mahti tahtiin:",
-    "category": "Ilmaise itseäsi",
-    "belongsTo": "Eläydy musiikkiin"
-  },{
-    "id": 1,
-    "name": "Anna äänesi kuulua!",
-    "videoId": "W11PdZdJteY",
-    "content": "Luikauta laulu! Oletko kokeillut karaokea? Laulamalla voit kehittää vuorovaikutustaitojasi. Tässä on tilaisuutesi kappaleen Voi tuota muistia tahtiin:",
-    "category": "Ilmaise itseäsi",
-    "belongsTo": "Eläydy musiikkiin"
-  },{
-    "id": 2,
-    "name": "Musiikin tahtiin!",
-    "content": "Antaudu musiikin vietäväksi! Laita tanssittavaa mielimusiikkiasi soimaan ja irrottele oikein kunnolla yhden kappaleen ajan. Twistausta, sheikkausta, heilutusta, keinutusta, tuolitanssia tai humppaa… Anna mennä! <img src=\"img/tanssikuva.jpg\" \/>",
-    "belongsTo": "Eläydy musiikkiin"
-  },{
-    "id": 3,
-    "name": "Musiikilliset harjoitukset",
-    "content": "Musiikillisissa harjoituksissa kuulet laulua. Kun laulu pysähtyy, valitse vaihtoehdoista sanat, joilla laulu jatkuu. Onnea matkaan! <br/><button class=\"btn btn-default\" ng-click=\"openUrl()\">Siirry harjoitteisiin</button>",
-    "category": "Ilmaise itseäsi",
-    "openUrl": "http://www.miinasillanpaa.fi/yhteinen-savel/#/games",
-    "belongsTo": "Eläydy musiikkiin"
-  },{
-    "id": 4,
-    "name": "Onnellisuus",
-    "content": "<div class=\"text-center\">Olemme vastuussa omasta onnellisuudestamme.<br/>Emme voi ottaa vastuuta kaikesta siitä, mitä meille tapahtuu,<br/>mutta olemme vastuussa siitä,</br>miten suhtaudumme tapahtumiin.</br><span class=\"italic\">-  Isa Merikallio</span> <hr class=\"poem\"/> Murheen kantaa yksinkin,<br/>mutta iloon tarvitaan kaksi.<br/><span class=\"italic\">-  Elbert Hubbard</span> <hr class=\"poem\"/> Onni on mielentila, asenne,<br/>ja jollei sitä opettele ja harjoittele tässä hetkessä,<br/>sitä ei koskaan koe.<br/><span class=\"italic\">- Maxwell Maltz</span> <hr class=\"poem\"/> Se on onnellinen, joka ei sure sitä mitä häneltä puuttuu,<br/>vaan iloitsee siitä mitä hänellä on.<br/><span class=\"italic\">- Demokritos</span> <hr class=\"poem\" /><br/>Kaikesta, mitä meille tapahtuu,<br/>voimme tehdä joko onnemme tai onnettomuutemme.<br/><span class=\"italic\">- Benjamin Franklin</span> <hr class=\"poem\" /><br/>Minun elämäni yhtenä johtotähtenä on ollut:<br/>kun unohtaa sen, mitä ei voi muuttaa, on onnellinen.<br/><span class=\"italic\">- Arvo Ylppö</span></div>",
-    "belongsTo": "Aforismit ja runot"
-  },{
-    "id": 5,
-    "name": "Elämäntaidot",
-    "content": "<div class=\"text-center\">Kyky kuunnella sisäistä viisautta vahvistuu harjoituksella,<br/> aivan kuten taito tai lihas<br/><span class=\"italic\">- Robbie Gass</span> <hr class=\"poem\"/>Kukaan ei voi palata menneeseen<br/>ja tehdä uutta alkua,<br/>mutta kuka tahansa voi aloittaa tänään<br/>ja tehdä loppumatkan<br/>haluamansa kaltaiseksi.<br/><span class=\"italic\">- Stephen Covey</span><hr class=\"poem\"/>Hymy on lyhin etäisyys kahden ihmisen välillä.<br/><span class=\"italic\">- Victor Borge</span><hr class=\"poem\"/>Ihan turhaan tuotakin tuskailet<br/>jos päivä ei pilkota polkusi yllä.<br/>Se valo, jota ulkoa löydä et,<br/>sehän rintasi luolassa loimuu kyllä.<br/><span class=\"italic\">- Aaro Hellaakoski</span><hr class=\"poem\"/>Tee vaikeat asiat kun ne vielä ovat helppoja<br/>ja suuret asiat kun ne vielä ovat pieniä.<br/><span class=\"italic\">- Laozi</span><hr class=\"poem\"/>Tietä kulkemalla sen oppii tuntemaan,<br/>ja kohta kulkijalla on tieto halussaan.<br/>Niin kuin Tie elämä eläjää opettaa. <br/>Silmien edessä maailma meitä odottaa. <br/>Mutta jos liikaa pinnistää, se pään vain sekoittaa.<br/><span class=\"italic\">- Benjamin Hoff: Nalle Puh ja Tao</span><hr class=\"poem\"/>Elä kuin kuolisit huomenna. <br/>Opi kuin eläisit ikuisesti.<br/><span class=\"italic\">- Mahatma Gandhi/span><hr class=\"poem\"/>Seisaaltaan ihmisen pitää vaikeat asiat miettiä,<br/>ja kaikkein vaikeimpien kanssa pitää lähteä kävelemään.<br/><span class=\"italic\">- Salme Malmikunnas/span><hr class=\"poem\"/>”Yhä uudelleen ajattelen <br/>pienet seikkailuni,<br/>kun rannikon tuulen mukana ajelehdin kajakissani <br/>ja luulin olevani vaarassa.<br/><br/>Nuo pienet pelkoni, <br/>joita luulin niin suuriksi, <br/>kun kaikki tärkeät asiat<br/>minun oli saavutettava.<br/><br/>Ja kuitenkin on olemassa vain<br/>yksi tärkeä asia,<br/>tämä ainoa:<br/>elää nähdäkseen majoissa ja matkoilla<br/>ja valon joka maailman täyttää.”<br/><span class=\"italic\">- Eskimoruno</span><hr class=\"poem\"/>Emme voi muuttaa kaikkea, jonka kohtaamme.<br/>Mutta emme voi muuttaa mitään ennen kuin olemme kohdanneet sen.<br/><span class=\"italic\">- James Baldwin<span><hr class=\"poem\"/>Täytyy mennä unelmiaan kohti, eikä vain odottaa,<br/>mitä tulevaisuus tuo tullessaan.<br/><span class=\"italic\">- Veikka Gustafsson</span><hr class=\"poem\"/>On parempi sytyttää kynttilä kuin kirota pimeyttä.<br/><span class=\"italic\">- Eleanor Roosevelt</span><hr class=\"poem\"/>Ystävä – joku joka tietää sinusta kaiken,<br/>ja rakastaa sinua sittenkin.<br/><span class=\"italic\">- Elbert Hubbard</span><hr class=\"poem\"/>Se mihin keskitymme, vahvistuu ja suurenee.<br/>Hyvä moninkertaistuu, kun keskitymme siihen.<br/>Negatiivisuus moninkertaistuu, kun keskitymme siihen.<br/>Valinta on meidän: kumpaa me haluamme lisää?<br/><span class=\"italic\">- Julia Cameron</span><hr class=\"poem\"/>Huomasin, että minulla on aina valinnan mahdollisuuksia,<br/>ja toisinaan kyse on vain asenteen valinnasta.<br/><span class=\"italic\">- Judith Knowlton</span><hr class=\"poem\"/>Et voi muuttaa tuulen suuntaa, mutta voit aina virittää purjeet uudelleen.<br/><span class=\"italic\">- Billie Joe Armstrong</span><hr class=\"poem\"/>Jos pystyt ratkaisemaan ongelmasi,<br/>mitä syytä sinulla on olla huolestunut?<br/>Jos et pysty ratkaisemaan ongelmaasi,<br/>mitä sinua auttaa olla huolestunut?<br/><span class=\"italic\">- Shantideva</span></div>",
-    "belongsTo": "Aforismit ja runot"
-  },{
-    "id": 6,
-    "name": "Itsetunto",
-    "content": "<div class=\"text-center\">Onnistuminen on asenne. Se on avoimuutta uusille ideoille, halukkuutta kuunnella,<br/>innokkuutta oppia, halua kasvaa ja joustavuutta muuttua.<br/><span class=\"italic\">- BJ Gallagher</span><hr class=\"poem\"/>Kehtaahan vanha tammikin<br/>häpeilemättä<br/>pukeutua hennonvihreään<br/><span class=\"italic\">- Kyllikki Viila</span><hr class=\"poem\"/>Jos Luojalla oli jokin tarkoitus varustaessaan meidät kaulalla, <br/>hän varmaankin tarkoitti että pitäisimme sen pystyssä. <br/><span class=\"italic\">- Arthur Koestler</span><hr class=\"poem\"/>Todellinen päätös mitataan sillä<br/>että otat uuden suunnan ja alat toimia.<br/>Jos et toimi, et ole oikeasti päättänyt.<br/><span class=\"italic\">- Anthony Robbins</span><hr class=\"poem\"/>Älä anna sen, mitä et osaa tehdä,<br/>häiritä sitä, mitä osaat tehdä.<br/><span class=\"italic\">- John Wooden</span><hr class=\"poem\"/>Jos uskot, että osaat, sinä osaat.<br/>Ja jos uskot ettet osaa, olet oikeassa.<br/><span class=\"italic\">- Mary Kay Ash</span><hr class=\"poem\"/>Keskeltä vaikeuksia löytyy mahdollisuus.<br/><span class=\"italic\">- Albert Einstein</span><hr class=\"poem\"/>Meissä on enemmän asioita kohdallaan, kuin pielessä. <br/><span class=\"italic\">- Jon Kabat-Zinn</span><hr class=\"poem\"/>Hiiteen kaikki mielen mustuus, me suoritamme itsemme <br/>tästä retkestä kuin enkelit. Asiat käyvät hyvin, peijakkaan hyvin,<br/>eikä yhtään syytä päätä kallistella.<br/><span class=\"italic\">- Aleksis Kivi</span></div>",
-    "belongsTo": "Aforismit ja runot"
-  },{
-    "id": 7,
-    "name": "Muistelu",
-    "content": "<div class=\"text-center\">Muistellaanko menneitä?<br/>mummi ukiltansa kysyy,<br/>‒ nauretaan jos jaksetaan<br/>ja hampaat suussa pysyy.<br/>‒ Lapsia me seitsemän muistaakseni saatiin,<br/>rakkausduetolla päästiin levyraatiin.<br/><span class=\"italic\">- Eppu Nuotio</span><hr class=\"poem\"/>Nuorempana minä pystyin muistamaan mitä hyvänsä,<br/>oli se tapahtunut tai ei.<br/><span class=\"italic\">- Mark Twain</span><hr class=\"poem\"/>Nyt iski muistinmenetys ja déjà vu yhtä aikaa.<br/>Luulen että olen unohtanut tämän aiemminkin.<br/><span class=\"italic\">- Steven Wright</span><hr class=\"poem\"/>Sen minkä kuulet,<br/>unohdat pian.<br/>Sen minkä näet,<br/>muistat vähän kauemmin. <br/>Se, minkä koet<br/>kulkee aina mukanasi.<br/><span class=\"italic\">- Flania</span><hr class=\"poem\"/>‒ Ai että dementia?<br/>Jaa että se etenee?<br/>Ei pidä paikkaansa.<br/>Jo nuorena minä olin hajamielinen,<br/>unohtelin asioita eikä se vaivannut minua yhtään.<br/>Päinvastoin. Moni huoli putosi pois päiväjärjestyksestä<br/>ja mieli keveni.<br/>Myös nykyään minä unohdan asioita,<br/>myönnän sen.<br/>Mutta yhä muistan,<br/>että unohdan.<br/><span class=\"italic\">- Eeva Kilpi</span></div>",
-    "belongsTo": "Aforismit ja runot"
-  },{
-    "id": 8,
-    "name": "Hetkessä eläminen",
-    "content": "<div class=\"text-center\">Oikea aika rentoutumiseen on silloin, kun sinulla ei ole aikaa siihen. <br/><span class=\"italic\">- Sidney J. Harris</span><hr class=\"poem\"/>Kesän hauskimmat päivät eivät ole niitä,<br/>joina tapahtuu jotakin hienoa tai jännittävää,<br/>vaan niitä, joina koetaan pieniä onnen hetkiä<br/>ja jotka soljuvat yksitellen,<br/>mutkattomasti kuin helmet nauhaan.<br/><span class=\"italic\">- Elana Lindquist</span><hr class=\"poem\"/>Tämä päivä on kahden huomisen arvoinen.<br/><span class=\"italic\">- Benjamin Franklin</span><hr class=\"poem\"/>Tärkeät asiat voi tehdä vain kerran:<br/>Kerran synnyn, kerran kuolen ja vain yhden kerran elän tämän hetken. <br/><span class=\"italic\">- Heli Karjalainen</span><hr class=\"poem\"/>Hengitä. Päästä irti. Muistuta itsellesi,<br/>että juuri tämä hetki on se ainoa, josta voit olla täysin varma.<br/><span class=\"italic\">- Oprah Winfrey</span><hr class=\"poem\"/>Se mitä on takanamme tai edessämme,<br/>on pientä verrattuna siihen,<br/>mitä on sisällämme.<br/><span class=\"italic\">- Ralph Waldo Emerson</span><hr class=\"poem\"/>Jos olet masentunut, elät menneisyydessä.<br/>Jos olet tuskastunut, elät tulevaisuudessa.<br/>Jos olet levollinen, elät tässä hetkessä.<br/><span class=\"italic\">- Lao Tzu</span><hr class=\"poem\"/>Meidän pitäisi käyttää päivittäin 20 minuuttia meditointiin <br/>‒ paitsi tietenkin, jos olet kiireinen, niin silloin vähintään tunti.<br/><span class=\"italic\">-  Vanha Zen sanonta</span></div>",
-    "belongsTo": "Aforismit ja runot"
-  },{
-    "id": 9,
-    "name": "Jokainen on jossain hyvä -runo",
-    "content": "<div class=\"text-center\">Elo usein eksyksissä,<br/>kun ei muista, mitä, missä.<br/>Etsiä saa maat ja mannut.<br/>Muistaa vaan: on talteen pannut.<br/><br/>Lapsuusmuistoin tuttu reitti<br/>Äskeiset jo usva peitti.<br/>Kun ei muista, niin ei muista!<br/>Asiat ei aina luista.<br/><br/>Vaikka kiroo, jukulauta!<br/>Sättiminenkään ei auta.<br/>Vaikkei tilanteesta nauti,<br/>hyväksyttävä on tauti.<br/><br/>‒ Jo on kummma, kun et muista!<br/>Mieli myrtyy motitteluista.<br/>Tajua ei terve tätä:<br/>muistamattomalla hätä!<br/><br/>Paranna ei moite, soima.<br/>tauti iän kohtaloima.<br/>Tulee jos on tullaksensa,<br/>kun ei satu kohdallensa.<br/><br/>Vaikka kohtalona tauti,<br/>elämästä silti nauti!<br/>Optimismi elon kantaa.<br/>Paljon hyvää voi se antaa.<br/><br/>Vaikka vaivaa riesa, risti,<br/>elä, nauti normaalisti!<br/>Älä nurkkaan nuhjaannukaan.<br/>Tule myötä muiden mukaan.<br/><br/>Sinä, terve lähimmäinen:<br/>Älä ole väistäväinen!<br/>Vaikka toisen muisti vajaa,<br/>elämästä se ei rajaa.<br/><br/>Jokaisen on Luoja luonut,<br/>erilaiset lahjat suonut.<br/>Luojan viisaus on syvä:<br/>Jokainen on jossain hyvä.<br/><span class=\"italic\">- Toivo Lyyra</span></div>",
-    "belongsTo": "Aforismit ja runot"
-  }]
-}

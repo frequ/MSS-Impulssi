@@ -12,7 +12,8 @@
     <div ng-repeat="category in categories">
 
       <super-navigate ng-if='category.name != "Elämysruletti"'
-        location="teekki#category?id={{ category.id }}">
+        location="teekki#category?id={{ category.id }}"
+        class="button-wrapper">
         <button class="button button-block btn-mss-blue sprite-btn"
           ng-class="{'btn-mss-gold': category.name == 'Innostu aivotreenistä'}">
           <i class="sprite" ng-class="category.id"></i>
@@ -29,7 +30,9 @@
       </div>
 
     </div>
-
+    <div class="row-mssray">
+      <img class="img-mssray" src="/img/MSSRay.png" alt="MSS + RAY" />
+    </div>
   </div>
 
 </div>

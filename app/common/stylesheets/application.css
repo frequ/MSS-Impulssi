@@ -75,6 +75,13 @@ img {
 .italic {
   font-style: italic;
 }
+.row-mssray {
+  text-align: center;
+}
+.row-mssray .img-mssray {
+  width: 100%;
+  padding: 25px;
+}
 /* Glyph, by Harry Roberts */
 hr.poem {
   margin-top: 35px;
@@ -223,6 +230,14 @@ hr.poem:after {
 }
 /* iPad in portrait and up */
 @media only screen and (min-device-width: 768px) {
+  .row-mssray {
+    text-align: center;
+  }
+  .row-mssray .img-mssray {
+    width: 75%;
+    padding: 25px;
+    margin-top: 30px;
+  }
   .padding {
     display: block;
     overflow: auto;

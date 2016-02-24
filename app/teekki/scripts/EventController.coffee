@@ -6,6 +6,7 @@ angular
     $scope.viewTitle = null
     $scope.videoId = null
     $scope.error = false
+    $scope.imagePath = "\/img"
 
     _fetchEvent = (eventId) ->
       category = JSON.parse(localStorage.getItem "activeCategory")

@@ -6,7 +6,14 @@
     </super-navbar-title>
   </super-navbar>
 
-  <div ng-hide="showRoulette" class="padding">
+  <div class="card padding" ng-show="error">
+    <h3>
+      <i class="icon super-alert-circled assertive center"></i>
+      {{error}}
+    </h3>
+  </div>
+
+  <div ng-hide="showRoulette || error" class="padding">
     <h3>Valitse aiheista mieluisaa tekemistä:</h3>
 
     <div ng-repeat="category in categories">

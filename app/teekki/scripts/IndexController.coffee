@@ -30,6 +30,7 @@ angular
           $scope.categories = categories
 
         .catch (error) ->
+          $scope.error = "Oho! Jotakin meni pieleen. Onhan sinulla toimiva Internet-yhteys?"
           supersonic.logger.error error.message
 
         .finally ->

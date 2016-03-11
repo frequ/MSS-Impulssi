@@ -1,6 +1,6 @@
 {
-  "name": "hhSteroidsCoffee",
-  "version": "0.0.0",
+  "name": "Impulssi",
+  "version": "1.0.0",
   "private": true,
   "devDependencies": {
     "grunt-steroids": "1.x"

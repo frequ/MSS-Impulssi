@@ -16,6 +16,14 @@
       <youtube-video video-id=videoId></youtube-video>
     </div>
 
+    <div ng-show="event.yleVideoEmbed">
+      <div
+        class="yle_areena_player"
+        data-id="{{ event.yleVideoDataId }}"
+        data-article="{{ event.yleVideoEmbed }}">
+      </div>
+  </div>
+
   </div>
 
 </div>

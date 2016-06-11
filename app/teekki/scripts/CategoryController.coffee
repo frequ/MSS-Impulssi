@@ -44,4 +44,15 @@ angular
       _fetchCategory(category_id)
 
     $scope.openUrl = (url) ->
-      supersonic.app.openURL(url)
+      webView = new steroids.views.WebView({ location: url })
+      steroids.layers.push({
+        view: webView,
+        keepLoading: false,
+        navigationBar: true
+      }, {
+        onSuccess: ->
+          console.log 'success'
+        onFailure: (error) ->
+          console.log 'failed', error
+      })
+      #supersonic.app.openURL(url)

@@ -2,12 +2,10 @@ angular
   .module('teekki')
   .factory 'httpService', ($http) ->
 
-    # use mss domain in production
-    # TODO: CORS FAILS IN ANDROID?
-    url  = "http://miinasillanpaa.github.io/json/"
-    # url = "https://www.miinasillanpaa.fi/impulssi/json/"
+    url  = "http://miinasillanpaa.github.io/json-v1.0/"
+
     # local url for debugging
-    localUrl = "/json/"
+    # localUrl = "/json/"
 
     httpService = {}
 
@@ -15,14 +13,6 @@ angular
       localStorage.setItem 'activeCategory', JSON.stringify(category)
 
     httpService.getCategories =  ->
-      ## server test (Access-Control Headers are there - > works)
-      # $http.get "http://miinasillanpaa.github.io/json/test.json"
-      #   .success (data) ->
-      #     console.log data
-      #     return data
-      #   .error (error) ->
-      #     console.log 'error', error
-
       promise = $http.get url + 'categories.json'
         .success (data) ->
           return data

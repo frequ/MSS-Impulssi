@@ -2,7 +2,7 @@ angular
   .module('teekki')
   .factory 'httpService', ($http) ->
 
-    url  = "http://miinasillanpaa.github.io/json-v1.0/"
+    url  = "http://miinasillanpaa.github.io/json-v1.1/"
 
     # local url for debugging
     # localUrl = "/json/"

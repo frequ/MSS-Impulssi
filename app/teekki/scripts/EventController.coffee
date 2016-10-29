@@ -22,11 +22,8 @@ angular
 
       if $scope.event.videoId
         $scope.videoId = $scope.event.videoId
-
-        $timeout ( ->
+        $scope.$on 'youtube.player.error', ($event,player) ->
           $scope.error = true
-        ), 3000
-
 
     supersonic.ui.views.current.params.onValue (params) ->
       event_id = params.id

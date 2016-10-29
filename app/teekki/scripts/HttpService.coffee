@@ -5,7 +5,7 @@ angular
     url  = "http://miinasillanpaa.github.io/json-v1.1/"
 
     # local url for debugging
-    # localUrl = "/json/"
+    #url = "/json/"
 
     httpService = {}
 

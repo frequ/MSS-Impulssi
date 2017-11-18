@@ -12,8 +12,13 @@
     </div>
 
     <div class="video-container" ng-show="videoId">
-      <span ng-show="error">Hups! Videon näyttäminen epäonnistui. Ole hyvä ja yritä uudestaan.</span>
-      <youtube-video video-id=videoId></youtube-video>
+      <span ng-show="error">
+        Hups! Videon näyttäminen epäonnistui.
+        <button class="button button-positive" ng-click="reloadPage()">
+          Yritä uudestaan tästä
+        </button>
+      </span>
+      <youtube-video player-vars="playerVars" video-id=videoId></youtube-video>
     </div>
 
     <div ng-show="event.yleVideoEmbed">

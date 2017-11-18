@@ -8,7 +8,18 @@ angular
        # scope.url = undefined
 
       scope.openUrl = ->
-        supersonic.app.openURL scope.url
+        #supersonic.app.openURL scope.url
+        webView = new steroids.views.WebView({ location: scope.url })
+        steroids.layers.push({
+          view: webView,
+          keepLoading: false,
+          navigationBar: true
+        }, {
+          onSuccess: ->
+            console.log 'success'
+          onFailure: (error) ->
+            console.log 'failed', error
+        })
 
       scope.$watch attrs.compile, (html) ->
         if attrs.url

@@ -2,10 +2,11 @@ angular
   .module('teekki')
   .factory 'httpService', ($http) ->
 
-    url  = "http://miinasillanpaa.github.io/json-v1.1/"
+    url = "http://miinasillanpaa.github.io/mobile-json-v1.2/"
 
     # local url for debugging
-    #url = "/json/"
+    # url = "/json/"
+    # url = "http://192.168.1.40:8888/miinasillanpaa.github.io/json-v1.2/"
 
     httpService = {}
 
@@ -13,25 +14,25 @@ angular
       localStorage.setItem 'activeCategory', JSON.stringify(category)
 
     httpService.getCategories =  ->
-      promise = $http.get url + 'categories.json'
+      $http.get url + 'categories.json'
         .success (data) ->
-          return data
+          data
         .error ->
           supersonic.logger.log "error fetching categories.json from #{url}"
 
     httpService.getRoulette = ->
-      promise = $http.get url + 'roulette.json'
+      $http.get url + 'roulette.json'
         .success (data) ->
-          return data
+          data
         .error ->
           supersonic.logger.log 'error fetching roulette.json'
 
     httpService.getCategory = (categoryId) ->
-      promise = $http.get url + categoryId + '.json'
+      $http.get url + categoryId + '.json'
         .success (data) ->
           _saveCategory(data)
-          return data
+          data
         .error ->
           supersonic.logger.log 'error fetching ' + categoryId + '.json'
 
-    return httpService
+    httpService
